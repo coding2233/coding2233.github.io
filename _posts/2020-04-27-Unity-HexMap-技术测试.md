@@ -30,7 +30,7 @@ int[] triangles = new int[] { 0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 5, 0, 5, 6, 0, 6,
 
 ### 0x01. unity模型
 * Hex模型
-![](../assets/images/hex_mesh.png)
+![](assets/images/hex_mesh.png)
 * Hex Grid
 ```csharp
  for (int i = 0; i < _column; i++)
@@ -43,7 +43,7 @@ int[] triangles = new int[] { 0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 5, 0, 5, 6, 0, 6,
             }
         }
 ```
-![](../assets/images/hex_mesh_grid.png)
+![](assets/images/hex_mesh_grid.png)
 
 
 其实上面用来满足以纯六变形做地形的需求，是没问题的， 但是我希望我们的地形是一个现成风格更加可控可变的，HexMap应该是附加到地形之上，所以需要重新转换一下思路。
@@ -235,7 +235,7 @@ public void Handle(Bounds bounds, IProjectorHandle handle, string meshName = nul
 
 ### 0x04. 准备一个包含六变形的图片的材质
 取消掉`Generate Mip Maps`，`Wrap Mode`改为`Clamp`
-![](../assets/images/hex_material.png)
+![](assets/images/hex_material.png)
 
 
 ### 0x05. 生成多个Hex
@@ -275,7 +275,7 @@ private void MakeMeshGameObject()
     }
 }
 ```
-![](../assets/images/hex_scene_mesh.png)
+![](assets/images/hex_scene_mesh.png)
 
 
 ### 0x05. 导出FBX
