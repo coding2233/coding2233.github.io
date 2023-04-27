@@ -97,9 +97,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: coding2233/coding2233.github.io
-    repo_id:
-    category:
-    category_id:
+    repo_id: R_kgDOJb7Y3g
+    category: Announcements
+    category_id: DIC_kwDOJb7Y3s4CWFeZ
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
