@@ -1,9 +1,10 @@
 ---
-title:  "Unity Hex Map技术测试"
+title: Unity Hex Map技术测试
 author: 船长
-date:   2020-04-27 20:30:36 
-categories: Unity HexMap
-layout: post
+date: 2020-04-27 20:44:36 +0800
+categories: [Unity, HexMap]
+tags: [writing]
+render_with_liquid: false
 ---
 
 HexMap常用于战棋的地形，最近有这方面的需求，做一个简单的测试，从画一个正六边形开始。

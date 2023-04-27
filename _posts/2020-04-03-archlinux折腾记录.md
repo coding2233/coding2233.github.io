@@ -1,9 +1,10 @@
 ---
-title:  "archlinux折腾记录"
+title: archlinux折腾记录
 author: 船长
-date:   2020-04-03 20:44:36 +0530
-categories: Linux Archlinux 折腾
-layout: post
+date: 2020-04-03 20:44:36 +0800
+categories: [Linux, Archlinux, 折腾]
+tags: [writing]
+render_with_liquid: false
 ---
 
 ### 具体参考 archlinux wiki
