@@ -5954,6 +5954,49 @@ proxies:
     path: /freebaipiao
 - alterId: 0
   cipher: auto
+  name: 香港 038
+  network: ws
+  port: 2052
+  server: 103.160.204.31
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  ws-opts:
+    headers:
+      host: ecc.vtcss.top
+    path: /blue99
+- alterId: 0
+  cipher: auto
+  name: 美国 114
+  network: ws
+  port: 80
+  server: fhc.shabijichang.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4d10e7d8-31ad-4bff-8885-bc87ac942db3
+  ws-opts:
+    headers:
+      Host: fhc.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 129
+  network: ws
+  port: 443
+  server: time.is
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9324cb08-3164-40a4-b149-e832fcd78237
+  ws-opts:
+    headers:
+      Host: time.is
+    path: /ru1
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 🇺🇸 _US_美国
   network: ws
@@ -6953,6 +6996,9 @@ proxy-groups:
   - 新加坡 003
   - 美国 113
   - 加拿大 128
+  - 香港 038
+  - 美国 114
+  - 加拿大 129
   - 🇺🇸 _US_美国
   - 🇺🇸 _US_美国->🇨🇳_CN_中国
   - 🇺🇸 _US_美国 2
@@ -7019,8 +7065,6 @@ rules:
 - DOMAIN-SUFFIX,ttvnw.net,🔰 节点选择
 - DOMAIN-SUFFIX,twitch.tv,🔰 节点选择
 - DOMAIN-SUFFIX,twitchcdn.net,🔰 节点选择
-- DOMAIN,radio.itunes.apple.com,🔰 节点选择
-- DOMAIN,tv.applemusic.com,🔰 节点选择
 - DOMAIN-SUFFIX,deezer.com,🔰 节点选择
 - DOMAIN-SUFFIX,dzcdn.net,🔰 节点选择
 - DOMAIN-SUFFIX,joox.com,🔰 节点选择
@@ -7063,9 +7107,6 @@ rules:
 - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🔰 节点选择
 - DOMAIN,d27xxe7juh1us6.cloudfront.net,🔰 节点选择
 - DOMAIN-KEYWORD,avoddashs,🔰 节点选择
-- DOMAIN,linear.tv.apple.com,🔰 节点选择
-- DOMAIN,play-edge.itunes.apple.com,🔰 节点选择
-- DOMAIN,uts-api.itunes.apple.com,🔰 节点选择
 - DOMAIN-SUFFIX,bahamut.com.tw,🔰 节点选择
 - DOMAIN-SUFFIX,gamer.com.tw,🔰 节点选择
 - DOMAIN,gamer-cds.cdn.hinet.net,🔰 节点选择
@@ -7256,7 +7297,6 @@ rules:
 - DOMAIN,s3-ap-southeast-2.amazonaws.com,🔰 节点选择
 - DOMAIN,a248.e.akamai.net,🔰 节点选择
 - DOMAIN,a771.dscq.akamai.net,🔰 节点选择
-- DOMAIN,testflight.apple.com,🔰 节点选择
 - DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择
 - DOMAIN-SUFFIX,joinclubhouse.com,🔰 节点选择
 - DOMAIN,clubhouse.pubnubapi.com,🔰 节点选择
@@ -7786,29 +7826,11 @@ rules:
 - DOMAIN-SUFFIX,weebly.com,🔰 节点选择
 - DOMAIN-SUFFIX,twitter.jp,🔰 节点选择
 - DOMAIN-SUFFIX,appsto.re,🔰 节点选择
-- DOMAIN,books.itunes.apple.com,🔰 节点选择
-- DOMAIN-SUFFIX,smoot.apple.com,🔰 节点选择
-- DOMAIN,beta.music.apple.com,🔰 节点选择
-- DOMAIN,lookup-api.apple.com,🔰 节点选择
-- DOMAIN,apps.apple.com,🔰 节点选择
-- DOMAIN,books.apple.com,🔰 节点选择
-- DOMAIN,itunes.apple.com,🔰 节点选择
-- DOMAIN,tv.apple.com,🔰 节点选择
-- DOMAIN,amp-api.podcasts.apple.com,🔰 节点选择
-- DOMAIN,bookkeeper.itunes.apple.com,🔰 节点选择
 - DOMAIN,gateway.icloud.com,🔰 节点选择
-- DOMAIN-SUFFIX,apple.news,🔰 节点选择
-- DOMAIN,news-assets.apple.com,🔰 节点选择
-- DOMAIN,news-client.apple.com,🔰 节点选择
-- DOMAIN,news-client-search.apple.com,🔰 节点选择
-- DOMAIN,news-edge.apple.com,🔰 节点选择
-- DOMAIN,news-events.apple.com,🔰 节点选择
-- DOMAIN,apple.comscoreresearch.com,🔰 节点选择
 - DOMAIN-SUFFIX,go.dev,🔰 节点选择
 - DOMAIN-SUFFIX,golang.org,🔰 节点选择
 - DOMAIN-SUFFIX,aicoin.com,🔰 节点选择
 - DOMAIN-SUFFIX,aimoon.com,🔰 节点选择
-- DOMAIN-SUFFIX,bing.com,🔰 节点选择
 - DOMAIN-SUFFIX,cccat.io,🔰 节点选择
 - DOMAIN-SUFFIX,dubox.com,🔰 节点选择
 - DOMAIN-SUFFIX,duboxcdn.com,🔰 节点选择
@@ -7817,10 +7839,6 @@ rules:
 - DOMAIN-SUFFIX,mangakakalot.com,🔰 节点选择
 - DOMAIN-SUFFIX,shopeemobile.com,🔰 节点选择
 - DOMAIN-SUFFIX,sushi.com,🔰 节点选择
-- DOMAIN,appleid.apple.com,🔰 节点选择
-- DOMAIN,developer.apple.com,🔰 节点选择
-- DOMAIN,www.icloud.com,🔰 节点选择
-- DOMAIN,ocsp.apple.com,🔰 节点选择
 - DOMAIN,cacerts.digicert.com,🔰 节点选择
 - DOMAIN,crl3.digicert.com,🔰 节点选择
 - DOMAIN,crl4.digicert.com,🔰 节点选择
