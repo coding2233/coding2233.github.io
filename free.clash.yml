@@ -7660,6 +7660,195 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
+  name: 加拿大 158
+  network: ws
+  port: 80
+  server: us01.runba.gq
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      host: us01.runba.gq
+    path: /v1893298323Py
+- alterId: 0
+  cipher: auto
+  name: 加拿大 159
+  network: ws
+  port: 2052
+  server: wuxian.jcffgo.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 38c5a69f-9c5b-4a0f-b6fb-90ea6cf7f1af
+  ws-opts:
+    headers:
+      Host: wuxian.jcffgo.top
+    path: /cf
+- alterId: 0
+  cipher: auto
+  name: 美国 215
+  network: ws
+  port: 443
+  server: b2n.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f5a0b71e-85aa-48ff-99d1-9f3b8459da49
+  ws-opts:
+    headers:
+      Host: b2n.ir
+    path: /speedtest
+- alterId: 64
+  cipher: auto
+  name: 美国 216
+  network: ws
+  port: 443
+  server: 199.188.105.28
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.33021824.xyz
+    path: /path/1694604820478
+- alterId: 64
+  cipher: auto
+  name: 美国 217
+  network: ws
+  port: 443
+  server: 198.2.218.4
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.87606143.xyz
+    path: /path/1694604820478
+- alterId: 0
+  cipher: auto
+  name: 加拿大 160
+  network: ws
+  port: 80
+  server: antarctica.baiduvideos.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: ae8f1cc9-2f13-4043-bd55-c83cbb64610d
+  ws-opts:
+    headers:
+      Host: antarctica.baiduvideos.online
+    path: /114514
+- alterId: 64
+  cipher: auto
+  name: 美国 218
+  network: ws
+  port: 443
+  server: 192.74.229.183
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68339205.xyz
+    path: /path/1694604820478
+- alterId: 64
+  cipher: auto
+  name: 美国 219
+  network: ws
+  port: 443
+  server: 137.175.23.178
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.22866947.xyz
+    path: /path/1694604820478
+- alterId: 64
+  cipher: auto
+  name: 美国 220
+  network: tcp
+  port: 56986
+  server: 192.74.234.90
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 加拿大 161
+  network: ws
+  port: 443
+  server: 108.181.10.17
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e83e3080-518b-11ee-b933-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: 108.181.10.17
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 美国 221
+  network: ws
+  port: 443
+  server: 192.74.232.245
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.54092415.xyz
+    path: /path/1694604820478
+- alterId: 64
+  cipher: auto
+  name: 美国 222
+  network: ws
+  port: 443
+  server: 198.2.213.154
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42438779.xyz
+    path: /path/1694604820478
+- alterId: 64
+  cipher: auto
+  name: 美国 223
+  network: ws
+  port: 443
+  server: 38.26.135.19
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.39838266.xyz
+    path: /path/1694516064215
+- alterId: 64
+  cipher: auto
+  name: 美国 224
+  network: ws
+  port: 443
+  server: 198.2.192.152
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.78280643.xyz
+    path: /path/1694604820478
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 🇺🇸 _US_美国->🇨🇳_CN_中国
   network: ws
@@ -8723,6 +8912,20 @@ proxy-groups:
   - 加拿大 156
   - 美国 214
   - 加拿大 157
+  - 加拿大 158
+  - 加拿大 159
+  - 美国 215
+  - 美国 216
+  - 美国 217
+  - 加拿大 160
+  - 美国 218
+  - 美国 219
+  - 美国 220
+  - 加拿大 161
+  - 美国 221
+  - 美国 222
+  - 美国 223
+  - 美国 224
   - 🇺🇸 _US_美国->🇨🇳_CN_中国
   - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
   - 🇺🇸 _US_美国
@@ -8772,6 +8975,7 @@ proxy-groups:
 - name: 🐟 漏网之鱼
   proxies:
   - 🎯 全球直连
+  - ♻️ 自动选择
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
