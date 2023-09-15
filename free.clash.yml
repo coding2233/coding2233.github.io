@@ -151,6 +151,10 @@ proxies:
   port: 38457
   server: 192.168.99.1
   type: http
+- name: fastgithub_127_0_0_1
+  port: 38457
+  server: 127.0.0.1
+  type: http
 - alterId: 0
   cipher: auto
   name: 美国 001
@@ -7391,6 +7395,7 @@ proxy-groups:
   - fastgithub_192_168_1_6
   - fastgithub_192_168_1_26
   - fastgithub_192_168_99_1
+  - fastgithub_127_0_0_1
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
