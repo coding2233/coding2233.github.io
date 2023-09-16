@@ -2773,21 +2773,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 075
-  network: ws
-  port: 23614
-  server: 14.v2-ray.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f2d9639a-638c-32bb-a1b2-01a7ad5a54c9
-  ws-opts:
-    headers:
-      Host: 14.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 082
   network: ws
   port: 80
@@ -2818,7 +2803,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 076
+  name: 美国 075
   network: ws
   port: 80
   server: hdlb.shabijichang.com
@@ -2848,7 +2833,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 077
+  name: 美国 076
   network: ws
   port: 80
   server: mm.shabijichang.com
@@ -2863,7 +2848,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 078
+  name: 美国 077
   network: ws
   port: 80
   server: yhnsb.shabijichang.com
@@ -2938,21 +2923,6 @@ proxies:
     path: /uasfbbc
 - alterId: 0
   cipher: auto
-  name: 英国 001
-  network: ws
-  port: 443
-  server: vuk2.0bad.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    headers:
-      Host: vuk2.0bad.com
-    path: /chat
-- alterId: 0
-  cipher: auto
   name: 加拿大 089
   network: ws
   port: 80
@@ -2983,7 +2953,7 @@ proxies:
     path: /jdbp606
 - alterId: 0
   cipher: auto
-  name: 美国 079
+  name: 美国 078
   network: ws
   port: 80
   server: sbl.shabijichang.com
@@ -3080,78 +3050,6 @@ proxies:
     headers:
       host: mrb2.shabijichang.com
     path: /
-- alterId: 64
-  cipher: auto
-  name: 美国 080
-  network: tcp
-  port: 36368
-  server: 45.199.138.197
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fe5f69e7-e183-439b-950b-9661ef0651f2
-  ws-headers:
-    Host: 45.199.138.197
-- alterId: 64
-  cipher: auto
-  name: 美国 081
-  network: tcp
-  port: 53532
-  server: 45.199.138.198
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6fa560d4-35c5-4968-adfc-812c52878b84
-  ws-headers:
-    Host: 45.199.138.198
-- alterId: 64
-  cipher: auto
-  name: 美国 082
-  network: tcp
-  port: 55446
-  server: 45.199.138.152
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
-  ws-headers:
-    Host: 45.199.138.152
-- alterId: 0
-  cipher: auto
-  name: 美国 083
-  network: tcp
-  port: 46900
-  server: 142.4.115.171
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 142.4.115.171
-- alterId: 0
-  cipher: auto
-  name: 美国 084
-  network: tcp
-  port: 49922
-  server: 45.199.138.188
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  ws-headers:
-    Host: 45.199.138.188
-- alterId: 64
-  cipher: auto
-  name: 美国 085
-  network: tcp
-  port: 46612
-  server: 45.199.138.148
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
-  ws-headers:
-    Host: 45.199.138.148
 - alterId: 0
   cipher: auto
   name: 加拿大 097
@@ -3166,36 +3064,6 @@ proxies:
     headers:
       host: avaspeed.jetspeed.fun
     path: /pDDgT3v8NaAJHFPuEaDfC8t
-- alterId: 64
-  cipher: auto
-  name: 美国 086
-  network: tcp
-  port: 54885
-  server: 45.199.138.180
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
-- alterId: 64
-  cipher: auto
-  name: 美国 087
-  network: tcp
-  port: 34987
-  server: 45.199.138.190
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 美国 088
-  network: tcp
-  port: 48912
-  server: 45.199.138.162
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79
 - alterId: 0
   cipher: auto
   name: 加拿大 098
@@ -3240,7 +3108,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 美国 089
+  name: 美国 079
   network: ws
   port: 80
   server: 172.64.105.187
@@ -3338,7 +3206,7 @@ proxies:
     path: /sshkit/1736960111/64ee26041efcc/
 - alterId: 0
   cipher: auto
-  name: 美国 090
+  name: 美国 080
   network: ws
   port: 80
   server: vless.wyhkaa0.cf
@@ -3360,20 +3228,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 22acc467-7440-386a-927a-d84be554b37e
-- alterId: 64
-  cipher: auto
-  name: 美国 091
-  network: ws
-  port: 443
-  server: 140.99.129.53
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: www.44945510.xyz
-    path: /path/1693304091037
 - alterId: 0
   cipher: auto
   name: 加拿大 107
@@ -3388,16 +3242,6 @@ proxies:
     headers:
       host: s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
     path: /vmess
-- alterId: 64
-  cipher: auto
-  name: 美国 092
-  network: tcp
-  port: 53797
-  server: 156.225.67.101
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 新加坡 001
@@ -3429,7 +3273,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 美国 093
+  name: 美国 081
   network: ws
   port: 443
   server: amstd.digires.shop
@@ -3541,7 +3385,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: 美国 094
+  name: 美国 082
   network: ws
   port: 80
   server: ns1.v2-vip.fun
@@ -3583,7 +3427,7 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: 美国 095
+  name: 美国 083
   network: ws
   port: 443
   server: 23.227.38.109
@@ -3611,7 +3455,7 @@ proxies:
     path: /aricke.com
 - alterId: 0
   cipher: auto
-  name: 美国 096
+  name: 美国 084
   network: ws
   port: 8880
   server: cdn.narutos.top
@@ -3681,7 +3525,7 @@ proxies:
     path: /blue03
 - alterId: 0
   cipher: auto
-  name: 美国 097
+  name: 美国 085
   network: ws
   port: 443
   server: 104.31.16.58
@@ -3824,7 +3668,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: /
-  name: 美国 098
+  name: 美国 086
   network: grpc
   port: 2087
   server: 104.31.16.3
@@ -3852,7 +3696,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 美国 099
+  name: 美国 087
   network: ws
   port: 443
   server: 107.148.4.60
@@ -3912,7 +3756,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 100
+  name: 美国 088
   network: ws
   port: 80
   server: ms.shabijichang.com
@@ -3926,49 +3770,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 美国 101
-  network: ws
-  port: 443
-  server: 198.2.223.12
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.45202449.xyz
-    path: /path/1694604820478
-- alterId: 64
-  cipher: auto
-  name: 美国 102
-  network: ws
-  port: 443
-  server: 198.2.195.197
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.78814579.xyz
-    path: /path/1694516064215
-- alterId: 64
-  cipher: auto
-  name: 美国 103
-  network: ws
-  port: 443
-  server: 192.74.228.187
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e
-  ws-opts:
-    headers:
-      Host: www.59274706.xyz
-    path: /path/1694604820478
-- alterId: 64
-  cipher: auto
-  name: 美国 104
+  name: 美国 089
   network: ws
   port: 443
   server: 199.188.105.28
@@ -3982,64 +3784,8 @@ proxies:
     path: /path/1694604820478
 - alterId: 64
   cipher: auto
-  name: 美国 105
-  network: ws
-  port: 443
-  server: 192.74.232.245
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.54092415.xyz
-    path: /path/1694604820478
-- alterId: 64
-  cipher: auto
-  name: 美国 106
-  network: ws
-  port: 443
-  server: 198.2.213.154
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42438779.xyz
-    path: /path/1694604820478
-- alterId: 64
-  cipher: auto
-  name: 美国 107
-  network: ws
-  port: 443
-  server: 38.26.135.19
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.39838266.xyz
-    path: /path/1694516064215
-- alterId: 64
-  cipher: auto
-  name: 美国 108
-  network: ws
-  port: 443
-  server: 198.2.192.152
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.78280643.xyz
-    path: /path/1694604820478
-- alterId: 64
-  cipher: auto
   client-fingerprint: chrome
-  name: 美国 109
+  name: 美国 090
   network: ws
   port: 443
   server: 198.2.202.66
@@ -4055,7 +3801,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 美国 110
+  name: 美国 091
   network: ws
   port: 443
   server: 107.167.30.83
@@ -4112,7 +3858,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 111
+  name: 美国 092
   network: ws
   port: 443
   server: 23.227.39.111
@@ -4151,15 +3897,6 @@ proxies:
     headers:
       Host: v157.runba.gq
     path: /frfrfffvmn01N
-- alterId: 64
-  cipher: auto
-  name: 美国 112
-  network: tcp
-  port: 49933
-  server: 45.199.138.158
-  skip-cert-verify: true
-  type: vmess
-  uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7
 - alterId: 0
   cipher: auto
   name: 加拿大 122
@@ -4175,7 +3912,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 美国 113
+  name: 美国 093
   network: ws
   port: 443
   server: 107.148.195.145
@@ -4189,7 +3926,7 @@ proxies:
     path: /path/1694341232847
 - alterId: 64
   cipher: auto
-  name: 美国 114
+  name: 美国 094
   network: ws
   port: 443
   server: 156.225.67.16
@@ -4215,15 +3952,6 @@ proxies:
     headers:
       Host: Amsterdam.bobbykotick.rip
     path: /speedtest?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 美国 115
-  network: tcp
-  port: 32661
-  server: 45.199.138.162
-  skip-cert-verify: true
-  type: vmess
-  uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79
 - alterId: 0
   cipher: auto
   name: 加拿大 124
@@ -4239,7 +3967,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 美国 116
+  name: 美国 095
   network: ws
   port: 80
   server: 162.159.240.97
@@ -4266,7 +3994,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 美国 117
+  name: 美国 096
   network: ws
   port: 80
   server: 141.193.213.21
@@ -4277,15 +4005,6 @@ proxies:
     headers:
       Host: tr-01vm.mr-radwan-daoud.de
     path: /vmess
-- alterId: 64
-  cipher: auto
-  name: 美国 118
-  network: tcp
-  port: 48909
-  server: 156.225.67.73
-  skip-cert-verify: true
-  type: vmess
-  uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6
 - alterId: 0
   cipher: auto
   name: 加拿大 126
@@ -4299,15 +4018,6 @@ proxies:
     headers:
       Host: lv2.scproxy.top
     path: /shirker
-- alterId: 64
-  cipher: auto
-  name: 美国 119
-  network: tcp
-  port: 53240
-  server: 192.74.243.51
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 加拿大 127
@@ -4336,50 +4046,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 日本 005
-  network: ws
-  port: 80
-  server: jp02.vipnode.online
-  skip-cert-verify: true
-  type: vmess
-  uuid: 95d58891-4ff4-403b-b120-e656169621cb
-  ws-opts:
-    headers:
-      Host: jp02.vipnode.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 南非 001
-  network: ws
-  port: 80
-  server: vm.af.serverfast.pw
-  skip-cert-verify: true
-  type: vmess
-  uuid: c2836421-3063-4fdd-b9b8-d54d36333232
-  ws-opts:
-    headers:
-      Host: af.serverfast.pw
-    path: /v2ray-vmess/ntls
-- alterId: 64
-  cipher: auto
-  name: 美国 120
-  network: tcp
-  port: 58082
-  server: 45.83.130.173
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 美国 121
-  network: tcp
-  port: 49774
-  server: 45.199.138.157
-  skip-cert-verify: true
-  type: vmess
-  uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7
-- alterId: 0
-  cipher: auto
   name: 加拿大 129
   network: ws
   port: 443
@@ -4394,7 +4060,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: 美国 122
+  name: 美国 097
   network: ws
   port: 8443
   server: racknerd.gorgorchicken.one
@@ -4406,33 +4072,6 @@ proxies:
     headers:
       Host: racknerd.gorgorchicken.one
     path: /racknerd
-- alterId: 0
-  cipher: auto
-  name: 美国 123
-  network: tcp
-  port: 51715
-  server: 142.4.126.25
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 美国 124
-  network: tcp
-  port: 53797
-  server: 156.225.67.103
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 美国 125
-  network: tcp
-  port: 52874
-  server: 45.199.138.172
-  skip-cert-verify: true
-  type: vmess
-  uuid: 20b30916-e203-412e-8ec0-900f3acd5128
 - alterId: 0
   cipher: auto
   name: 加拿大 130
@@ -4449,7 +4088,7 @@ proxies:
     path: /vsg1.0bad.com/chat
 - alterId: 0
   cipher: auto
-  name: 美国 126
+  name: 美国 098
   network: ws
   port: 443
   server: dashboard.autoly.ir
@@ -4477,16 +4116,7 @@ proxies:
     path: /pzl237875155
 - alterId: 0
   cipher: auto
-  name: 美国 127
-  network: tcp
-  port: 46500
-  server: 199.188.111.249
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 美国 128
+  name: 美国 099
   network: ws
   port: 8443
   server: 104.21.36.26
@@ -4541,20 +4171,6 @@ proxies:
     path: /cf
 - alterId: 0
   cipher: auto
-  name: 美国 129
-  network: ws
-  port: 443
-  server: 156.251.130.159
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4ab4a477-72db-4b88-a17a-a165a1ade668
-  ws-opts:
-    headers:
-      Host: 156.251.130.159
-    path: /2532e16141e/
-- alterId: 0
-  cipher: auto
   name: 巴西 001
   network: ws
   port: 8443
@@ -4569,7 +4185,7 @@ proxies:
     path: /cloudconebbb
 - alterId: 0
   cipher: auto
-  name: 美国 130
+  name: 美国 100
   network: ws
   port: 2052
   server: cfcdn2.sanfencdn.net
@@ -4643,7 +4259,7 @@ proxies:
     path: /cf
 - alterId: 0
   cipher: auto
-  name: 美国 131
+  name: 美国 101
   network: ws
   port: 80
   server: jd.shabijichang.com
@@ -4672,7 +4288,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 美国 132
+  name: 美国 102
   network: ws
   port: 80
   server: amstd.shabijichang.com
@@ -4687,7 +4303,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 133
+  name: 美国 103
   network: ws
   port: 80
   server: mtlr.shabijichang.com
@@ -4702,7 +4318,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 134
+  name: 美国 104
   network: ws
   port: 80
   server: kltl.shabijichang.com
@@ -4717,7 +4333,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 135
+  name: 美国 105
   network: ws
   port: 80
   server: dld.shabijichang.com
@@ -4777,7 +4393,7 @@ proxies:
     path: /public
 - alterId: 0
   cipher: auto
-  name: 美国 136
+  name: 美国 106
   network: ws
   port: 80
   server: xn.shabijichang.com
@@ -4895,7 +4511,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 美国 137
+  name: 美国 107
   network: ws
   port: 2052
   server: bxaa.76898102.xyz
@@ -4908,7 +4524,7 @@ proxies:
     path: /bxqmiao
 - alterId: 0
   cipher: auto
-  name: 美国 138
+  name: 美国 108
   network: ws
   port: 80
   server: ml.shabijichang.com
@@ -4947,7 +4563,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 美国 139
+  name: 美国 109
   network: ws
   port: 443
   server: v33.emovpn.life
@@ -4993,7 +4609,7 @@ proxies:
     path: /sometimesnaive
 - alterId: 0
   cipher: auto
-  name: 美国 140
+  name: 美国 110
   network: ws
   port: 443
   server: v35.emovpn.life
@@ -5009,7 +4625,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 141
+  name: 美国 111
   network: ws
   port: 8443
   server: v34.emovpn.xyz
@@ -5025,7 +4641,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 142
+  name: 美国 112
   network: ws
   port: 80
   server: 172.64.195.218
@@ -5051,22 +4667,6 @@ proxies:
     headers:
       host: us1.mianfenyun012.eu.org
     path: /jdbp606
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 美国 143
-  network: ws
-  port: 443
-  server: 107.167.16.85
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f
-  ws-opts:
-    headers:
-      Host: www.51109057.xyz
-    path: /path/080822272914
 - alterId: 0
   cipher: chacha20-poly1305
   name: 荷兰 012
@@ -5093,15 +4693,6 @@ proxies:
     headers:
       Host: skvm2.bewater.top
     path: /skvm2
-- alterId: 64
-  cipher: auto
-  name: 美国 144
-  network: tcp
-  port: 46699
-  server: 45.199.138.148
-  skip-cert-verify: true
-  type: vmess
-  uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
 - alterId: 0
   cipher: auto
   name: 加拿大 153
@@ -5115,15 +4706,6 @@ proxies:
     headers:
       Host: eu-2.0rd.net
     path: /@hopev2ray
-- alterId: 64
-  cipher: auto
-  name: 美国 145
-  network: tcp
-  port: 45144
-  server: 156.225.67.74
-  skip-cert-verify: true
-  type: vmess
-  uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6
 - alterId: 64
   cipher: auto
   name: 荷兰 013
@@ -5154,7 +4736,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 美国 146
+  name: 美国 113
   network: ws
   port: 443
   server: 198.2.218.23
@@ -5168,7 +4750,7 @@ proxies:
     path: /path/211826353201
 - alterId: 64
   cipher: auto
-  name: 美国 147
+  name: 美国 114
   network: ws
   port: 443
   server: 198.2.215.99
@@ -5182,7 +4764,7 @@ proxies:
     path: /path/1694663103114
 - alterId: 64
   cipher: auto
-  name: 美国 148
+  name: 美国 115
   network: ws
   port: 443
   server: 198.2.204.51
@@ -5196,21 +4778,7 @@ proxies:
     path: /path/1694663103114
 - alterId: 64
   cipher: auto
-  name: 美国 149
-  network: ws
-  port: 443
-  server: 198.2.218.4
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.87606143.xyz
-    path: /path/1694663103114
-- alterId: 64
-  cipher: auto
-  name: 美国 150
+  name: 美国 116
   network: ws
   port: 443
   server: 142.4.100.204
@@ -5224,7 +4792,7 @@ proxies:
     path: /path/1694663103114
 - alterId: 64
   cipher: auto
-  name: 美国 151
+  name: 美国 117
   network: ws
   port: 443
   server: 198.2.197.77
@@ -5238,7 +4806,7 @@ proxies:
     path: /path/033206193118
 - alterId: 64
   cipher: auto
-  name: 美国 152
+  name: 美国 118
   network: ws
   port: 443
   server: 107.148.203.113
@@ -5252,7 +4820,7 @@ proxies:
     path: /path/053133263111
 - alterId: 64
   cipher: auto
-  name: 美国 153
+  name: 美国 119
   network: ws
   port: 443
   server: 198.2.222.69
@@ -5266,7 +4834,7 @@ proxies:
     path: /path/1694663103114
 - alterId: 64
   cipher: auto
-  name: 美国 154
+  name: 美国 120
   network: ws
   port: 443
   server: 38.40.158.230
@@ -5280,7 +4848,7 @@ proxies:
     path: /path/1694663103114
 - alterId: 64
   cipher: auto
-  name: 美国 155
+  name: 美国 121
   network: ws
   port: 443
   server: 142.0.130.242
@@ -5294,7 +4862,7 @@ proxies:
     path: /path/211826353201
 - alterId: 64
   cipher: auto
-  name: 美国 156
+  name: 美国 122
   network: ws
   port: 443
   server: 156.225.67.55
@@ -5331,7 +4899,7 @@ proxies:
     path: /sometimesnaive
 - alterId: 64
   cipher: auto
-  name: 美国 157
+  name: 美国 123
   network: ws
   port: 443
   server: 142.0.130.69
@@ -5345,7 +4913,7 @@ proxies:
     path: /path/140319000216
 - alterId: 64
   cipher: auto
-  name: 美国 158
+  name: 美国 124
   network: ws
   port: 443
   server: 142.0.129.247
@@ -5359,21 +4927,7 @@ proxies:
     path: /path/053133263111
 - alterId: 64
   cipher: auto
-  name: 美国 159
-  network: ws
-  port: 443
-  server: 192.74.229.183
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.68339205.xyz
-    path: /path/211826353201
-- alterId: 64
-  cipher: auto
-  name: 美国 160
+  name: 美国 125
   network: ws
   port: 443
   server: 198.2.195.198
@@ -5387,7 +4941,7 @@ proxies:
     path: /path/033206193118
 - alterId: 64
   cipher: auto
-  name: 美国 161
+  name: 美国 126
   network: ws
   port: 443
   server: 198.2.208.92
@@ -5401,7 +4955,7 @@ proxies:
     path: /path/033206193118
 - alterId: 64
   cipher: auto
-  name: 美国 162
+  name: 美国 127
   network: ws
   port: 443
   server: 198.2.202.83
@@ -5424,7 +4978,7 @@ proxies:
   uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b
 - alterId: 64
   cipher: auto
-  name: 美国 163
+  name: 美国 128
   network: ws
   port: 443
   server: 156.225.67.164
@@ -5438,7 +4992,7 @@ proxies:
     path: /path/1694663103114
 - alterId: 64
   cipher: auto
-  name: 美国 164
+  name: 美国 129
   network: ws
   port: 443
   server: 156.225.67.232
@@ -5452,7 +5006,7 @@ proxies:
     path: /path/033206193118
 - alterId: 64
   cipher: auto
-  name: 美国 165
+  name: 美国 130
   network: tcp
   port: 51181
   server: 156.225.67.23
@@ -5461,7 +5015,7 @@ proxies:
   uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9
 - alterId: 64
   cipher: auto
-  name: 美国 166
+  name: 美国 131
   network: ws
   port: 443
   server: 198.2.208.176
@@ -5475,7 +5029,7 @@ proxies:
     path: /path/053133263111
 - alterId: 64
   cipher: auto
-  name: 美国 167
+  name: 美国 132
   network: ws
   port: 443
   server: 198.2.244.20
@@ -5489,7 +5043,7 @@ proxies:
     path: /path/211826353201
 - alterId: 64
   cipher: auto
-  name: 美国 168
+  name: 美国 133
   network: ws
   port: 443
   server: 192.74.244.180
@@ -5503,7 +5057,7 @@ proxies:
     path: /path/211826353201
 - alterId: 64
   cipher: auto
-  name: 美国 169
+  name: 美国 134
   network: ws
   port: 443
   server: 107.148.203.100
@@ -5517,7 +5071,7 @@ proxies:
     path: /path/1694663103114
 - alterId: 64
   cipher: auto
-  name: 美国 170
+  name: 美国 135
   network: ws
   port: 443
   server: 198.2.213.178
@@ -5531,7 +5085,7 @@ proxies:
     path: /path/053133263111
 - alterId: 64
   cipher: auto
-  name: 美国 171
+  name: 美国 136
   network: ws
   port: 443
   server: 156.225.67.151
@@ -5560,7 +5114,7 @@ proxies:
     path: /public
 - alterId: 0
   cipher: auto
-  name: 美国 172
+  name: 美国 137
   network: ws
   port: 80
   server: fd.shabijichang.com
@@ -5588,121 +5142,627 @@ proxies:
     headers:
       Host: time.is
     path: /ru1
+- alterId: 0
+  cipher: auto
+  name: 加拿大 157
+  network: ws
+  port: 2052
+  server: tokyo.mfa.ee
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 992889a7-296e-4a44-98c2-0eb89af4411d
+  ws-opts:
+    headers:
+      Host: tokyo.mfa.ee
+    path: /
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国
-  port: 54002
-  server: 45.58.180.126
-  skip-cert-verify: false
-  tfo: false
+  name: 法国 004
+  network: ws
+  port: 443
+  server: 156.249.18.48
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.69414502.xyz
+    path: /path/1685272124110
+- alterId: 64
+  cipher: auto
+  name: 法国 005
+  network: ws
+  port: 443
+  server: 156.249.18.9
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52
+  ws-opts:
+    headers:
+      host: www.48643700.xyz
+    path: /path/1684580752213
+- alterId: 64
+  cipher: auto
+  name: 法国 006
+  network: ws
+  port: 443
+  server: 156.249.18.36
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.49291261.xyz
+    path: /path/1685530089600
+- alterId: 0
+  cipher: auto
+  name: 加拿大 158
+  network: ws
+  port: 80
+  server: se2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      host: se2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 159
+  network: ws
+  port: 8880
+  server: ns1.v2-vip.fun
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      host: fr7.tehme100.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 64
+  cipher: auto
+  name: 法国 007
+  network: ws
+  port: 443
+  server: 156.249.18.16
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9
+  ws-opts:
+    headers:
+      host: www.36318181.xyz
+    path: /path/1685094923408
+- alterId: 0
+  cipher: auto
+  name: 美国 138
+  network: ws
+  port: 80
+  server: 172.64.173.224
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 81fc114e-44d7-44c7-9912-942453b03154
+  ws-opts:
+    headers:
+      host: hdlb2.shabijichang.com
+    path: /
+- alterId: 32
+  cipher: auto
+  name: 美国 139
+  network: tcp
+  port: 443
+  server: 51.81.223.26
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  ws-headers:
+    Host: 51.81.223.26
+- alterId: 64
+  cipher: auto
+  name: 美国 140
+  network: tcp
+  port: 37831
+  server: 45.199.138.184
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e
+- alterId: 64
+  cipher: auto
+  name: 美国 141
+  network: tcp
+  port: 53790
+  server: 156.225.67.103
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 2
+  name: 加拿大 160
   network: ws
   port: 80
-  server: 172.67.120.174
-  skip-cert-verify: false
-  tfo: false
+  server: v101.runba.gq
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
   ws-opts:
     headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 64
+      host: v101.runba.gq
+    path: /frfrxxx0fk832v101N
+- alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 3
+  name: 加拿大 161
   network: ws
-  port: 443
-  server: 107.167.16.85
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  port: 80
+  server: us01.runba.gq
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
   ws-opts:
     headers:
-      Host: www.51109057.xyz
-    path: /path/080822272914
+      host: us01.runba.gq
+    path: /v1893298323Py
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 4
-  port: 56986
-  server: 192.74.234.90
-  skip-cert-verify: false
-  tfo: false
+  name: 美国 142
+  network: tcp
+  port: 41814
+  server: 45.199.138.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7
+- alterId: 64
+  cipher: auto
+  name: 美国 143
+  network: tcp
+  port: 51009
+  server: 198.200.37.231
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 🇸🇬 _SG_新加坡
-  password: faf42aa0a9ad4c1e
-  port: 3306
-  server: 5.44.249.42
-  skip-cert-verify: false
-  sni: n2.gladns.com
-  tfo: false
-  type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
+  name: 加拿大 162
   network: ws
-  port: 80
-  server: xn2.shabijichang.com
-  skip-cert-verify: false
-  tfo: false
+  port: 2095
+  server: 17.wyhkaa0.gq
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
+  uuid: 1e36655b-7d28-4513-d7f8-5f1a0c00a07d
   ws-opts:
     headers:
-      Host: xn2.shabijichang.com
+      host: 17.wyhkaa0.gq
+    path: /TG:@hkaa0
+- alterId: 64
+  cipher: auto
+  name: 美国 144
+  network: tcp
+  port: 53749
+  server: 45.199.138.135
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa
+- alterId: 0
+  cipher: auto
+  name: 新加坡 002
+  network: ws
+  port: 2052
+  server: 13.bbzbb.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 09fa3cc9-f1cb-330a-99bf-fe73a61b2b92
+  ws-opts:
+    headers:
+      host: 13.bbzbb.top
+    path: /v2ray
+- alterId: 64
+  cipher: auto
+  name: 美国 145
+  network: tcp
+  port: 49981
+  server: 45.199.138.194
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 美国 146
+  network: tcp
+  port: 46878
+  server: 45.199.138.124
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 加拿大 163
+  network: ws
+  port: 2082
+  server: sg-01.cloudlion.me
+  skip-cert-verify: true
+  type: vmess
+  uuid: 476165e4-8862-4c50-a0f3-6a544017df09
+  ws-opts:
+    headers:
+      Host: sg-01.cloudlion.me
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 美国 147
+  network: ws
+  port: 443
+  server: 198.2.244.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.12005627.xyz
+    path: /path/053133263111
+- alterId: 64
+  cipher: auto
+  name: 美国 148
+  network: ws
+  port: 443
+  server: 108.186.178.129
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.88998600.xyz
+    path: /path/211826353201
+- alterId: 64
+  cipher: auto
+  name: 美国 149
+  network: ws
+  port: 443
+  server: 198.2.204.35
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.75575729.xyz
+    path: /path/1694663103114
+- alterId: 64
+  cipher: auto
+  name: 美国 150
+  network: ws
+  port: 443
+  server: 198.2.207.114
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.63763079.xyz
+    path: /path/140319000216
+- alterId: 64
+  cipher: auto
+  name: 美国 151
+  network: ws
+  port: 443
+  server: 198.200.37.234
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.35617630.xyz
+    path: /path/053133263111
+- alterId: 64
+  cipher: auto
+  name: 美国 152
+  network: tcp
+  port: 41015
+  server: 192.74.234.210
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 美国 153
+  network: ws
+  port: 443
+  server: 142.4.104.167
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.72304286.xyz
+    path: /path/1694663103114
+- alterId: 64
+  cipher: auto
+  name: 美国 154
+  network: ws
+  port: 443
+  server: 107.148.195.129
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.30372614.xyz
+    path: /path/140319000216
+- alterId: 0
+  cipher: auto
+  name: 美国 155
+  network: ws
+  port: 443
+  server: vus4.0bad.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: vus4.0bad.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: 加拿大 164
+  network: ws
+  port: 443
+  server: 162.159.129.102
+  tls: true
+  type: vmess
+  uuid: d0a558a6-cef5-4a41-be8e-2eb47a4aae5f
+  ws-opts:
+    headers:
+      Host: crewu1.cyberairport.cc
+    path: /streaming.cgi
+- alterId: 0
+  cipher: auto
+  name: 加拿大 165
+  network: ws
+  port: 443
+  server: 162.159.129.156
+  tls: true
+  type: vmess
+  uuid: d0a558a6-cef5-4a41-be8e-2eb47a4aae5f
+  ws-opts:
+    headers:
+      Host: crewj2.cyberairport.cc
+    path: /streaming.cgi
+- alterId: 0
+  cipher: auto
+  name: 加拿大 166
+  network: ws
+  port: 8443
+  server: 162.159.129.52
+  tls: true
+  type: vmess
+  uuid: d0a558a6-cef5-4a41-be8e-2eb47a4aae5f
+  ws-opts:
+    headers:
+      Host: crews4.cyberairport.cc
+    path: /streaming.cgi
+- alterId: 0
+  cipher: auto
+  name: 伊朗 001
+  network: tcp
+  port: 54634
+  server: s2.goldxsanan.sbs
+  skip-cert-verify: true
+  type: vmess
+  uuid: 86e92837-9962-48dd-e5c4-5eed9d850d54
+- alterId: 0
+  cipher: auto
+  name: 德国 002
+  network: tcp
+  port: 19000
+  server: parsroute.inmanam.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3777d6c8-73f3-4a1e-9500-3c7efa9bb012
+- alterId: 0
+  cipher: auto
+  name: 加拿大 167
+  network: ws
+  port: 2052
+  server: datacenter.ct.01.biqibao.site
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5e5dda4c-2631-4ffb-9df3-6cfbab6e2490
+  ws-opts:
+    headers:
+      Host: datacenter.ct.01.biqibao.site
+    path: /public
+- alterId: 0
+  cipher: auto
+  name: 加拿大 168
+  network: ws
+  port: 2083
+  server: bwntaz.port888.site
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 15bf0db4-fbff-46d0-a486-b6e4a9e74a91
+  ws-opts:
+    headers:
+      Host: bwntaz.port888.site
     path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇮🇳_IN_印度
+  name: 加拿大 169
   network: ws
-  port: 80
-  server: mm3.shabijichang.com
+  port: 2052
+  server: jp.yx.alue.link
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
+  uuid: de0b9c1c-59f6-4433-bb88-0d7286201d90
   ws-opts:
     headers:
-      Host: mm3.shabijichang.com
+      Host: jp.wx.alue.link
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 美国 156
+  network: ws
+  port: 443
+  server: 198.2.202.211
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.13364896.xyz
+    path: /path/211826353201
+- alterId: 64
+  cipher: auto
+  name: 美国 157
+  network: ws
+  port: 443
+  server: 198.2.215.115
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.72795025.xyz
+    path: /path/140319000216
+- alterId: 64
+  cipher: auto
+  name: 美国 158
+  network: ws
+  port: 443
+  server: 142.4.126.61
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.29135019.xyz
+    path: /path/033206193118
+- alterId: 64
+  cipher: auto
+  name: 美国 159
+  network: ws
+  port: 443
+  server: 192.74.229.184
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68339205.xyz
+    path: /path/211826353201
+- alterId: 64
+  cipher: auto
+  name: 美国 160
+  network: tcp
+  port: 49922
+  server: 45.199.138.145
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+- alterId: 64
+  cipher: auto
+  name: 美国 161
+  network: ws
+  port: 443
+  server: 198.2.244.4
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.40735439.xyz
+    path: /path/211826353201
+- alterId: 0
+  cipher: auto
+  name: 捷克 001
+  network: ws
+  port: 2052
+  server: iran01.biqibao.site
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4931e941-77c6-4144-a8b9-5c252ee36c30
+  ws-opts:
+    headers:
+      Host: de2.biqibao.site
+    path: /public?ed=4096
+- alterId: 64
+  cipher: auto
+  name: 美国 162
+  network: ws
+  port: 443
+  server: 198.2.192.153
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.78280643.xyz
+    path: /path/053133263111
+- alterId: 0
+  cipher: auto
+  name: 加拿大 170
+  network: ws
+  port: 8443
+  server: 172.67.184.53
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
+  ws-opts:
+    headers:
+      Host: cloudconebbb.gorgorchicken.one
+    path: /cloudconebbb
+- alterId: 0
+  cipher: auto
+  name: 加拿大 171
+  network: ws
+  port: 80
+  server: 172.67.53.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 392053a2-c18f-4914-890c-fd326ee27b4f
+  ws-opts:
+    headers:
+      host: asb3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇮🇳_IN_印度 2
+  name: 加拿大 172
   network: ws
   port: 80
   server: 172.67.146.22
@@ -5717,113 +5777,118 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇦 _CA_加拿大
+  name: 美国 163
   network: ws
-  port: 443
-  server: 23.227.38.81
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  port: 80
+  server: 162.159.60.89
+  skip-cert-verify: true
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 7a60c15e-cbcd-486d-aee6-07a494f403e3
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇻🇳_VN_越南
-  network: ws
-  port: 2052
-  server: Tokyo.mfa.ee
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 992889a7-296e-4a44-98c2-0eb89af4411d
-  ws-opts:
-    headers:
-      Host: vnpt.iiio.wiki
+      Host: xby.daozhang.link
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇦 _CA_加拿大 2
+  name: 美国 164
   network: ws
-  port: 443
-  server: 23.227.38.82
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  port: 80
+  server: 172.64.199.158
+  skip-cert-verify: true
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 2e495227-58e3-4bea-a273-7a17bd8a804b
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+      Host: wnd.shabijichang.com
+    path: /
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 5
-  port: 41772
-  server: 192.74.238.228
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  name: 美国 165
+  network: tcp
+  port: 47862
+  server: 198.200.56.82
+  skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 6
+  name: 加拿大 173
   network: ws
-  port: 443
-  server: bobbykotick.rip
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  port: 2052
+  server: free4.6114514.xyz
+  skip-cert-verify: true
   type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  uuid: 8204f631-8a71-4f6a-821d-6c117edaf0fa
   ws-opts:
     headers:
-      Host: Dusseldorf.bobbykotick.rip
-    path: /speedtest
+      Host: free4.6114514.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 166
+  network: tcp
+  port: 48912
+  server: 45.199.138.163
+  skip-cert-verify: true
+  type: vmess
+  uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79
+- alterId: 64
+  cipher: auto
+  name: 美国 167
+  network: ws
+  port: 443
+  server: 192.74.243.33
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.64879090.xyz
+    path: /path/053133263111
+- alterId: 0
+  cipher: auto
+  name: 美国 168
+  network: tcp
+  port: 52792
+  server: 156.225.67.101
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 加拿大 174
+  network: ws
+  port: 443
+  server: 104.25.227.40
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: sub.saintink.eu.org
+    path: /vus3.0bad.com/chat
+- alterId: 0
+  cipher: auto
+  name: 加拿大 175
+  network: ws
+  port: 80
+  server: 172.67.78.109
+  skip-cert-verify: true
+  type: vmess
+  uuid: 272b3891-e103-45e0-8b09-f4d770bf5ba4
+  ws-opts:
+    headers:
+      Host: wnd.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 🇺🇸 _US_美国->🇨🇳_CN_中国
   network: ws
   port: 80
-  server: 172.67.149.100
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 7
-  port: 36368
-  server: 45.199.138.197
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fe5f69e7-e183-439b-950b-9661ef0651f2
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇨🇳_CN_中国 2
-  network: ws
-  port: 80
-  server: 172.64.105.187
+  server: 172.67.6.189
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -5836,60 +5901,26 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇫🇷_FR_法国
+  name: 🇺🇸 _US_美国->🇮🇳_IN_印度
   network: ws
   port: 80
-  server: v117.runba.gq
+  server: 172.67.63.75
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 892ebb75-7055-3007-8d16-356e65c6a49a
+  uuid: 6567eb30-6982-4484-bb9a-97232b229f2f
   ws-opts:
     headers:
-      Host: v117.runba.gq
-    path: /v117DEcxDXxxOvD
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 8
-  network: ws
-  port: 443
-  server: waynn.makeup
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: waynn.makeup
-    path: linkvws
-- client-fingerprint: chrome
-  name: 🇺🇸 _CN_中国->🇺🇸_US_美国
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 41929
-  server: 14.18.106.137
-  skip-cert-verify: false
-  sni: nl01.lovehjq.xyz
-  tfo: false
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇭🇰 _HK_香港
-  password: 3febb05ea76a940f
-  port: 3306
-  server: 45.11.104.94
-  skip-cert-verify: false
-  sni: n2.gladns.com
-  tfo: false
-  type: trojan
+      Host: mm4.shabijichang.com
+    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 9
+  name: 🇺🇸 _US_美国
   network: ws
   port: 443
-  server: 198.2.207.113
+  server: 142.4.126.59
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -5897,63 +5928,81 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.63763079.xyz
-    path: /path/1694516064215
+      Host: www.29135019.xyz
+    path: /path/1693737953547
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 2
+  network: ws
+  port: 443
+  server: 198.2.213.178
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.71585518.xyz
+    path: /path/053133263111
+- client-fingerprint: chrome
+  name: 🇸🇬 _SG_新加坡
+  password: 8a1ab0df6abea549
+  port: 3306
+  server: 5.44.249.43
+  skip-cert-verify: false
+  sni: n2.gladns.com
+  tfo: false
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 10
+  name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡
   network: ws
   port: 80
-  server: mrb2.shabijichang.com
+  server: sg2.wyhkaa0.cf
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 52cce261-ff53-439a-b97d-f36201842cdb
+  uuid: fc426675-5daa-46c0-d998-61f9f5323e3f
   ws-opts:
     headers:
-      Host: mrb2.shabijichang.com
+      Host: sg2.wyhkaa0.cf
+    path: /TG:@hkaa0
+- client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 3
+  password: 8b475d9e868e43e0
+  port: 3306
+  server: 134.195.101.33
+  skip-cert-verify: false
+  sni: n2.gladns.com
+  tfo: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2082
+  server: fr-01.cloudlion.me
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 87646364-c074-4b95-81cf-4bded967ca02
+  ws-opts:
+    headers:
+      Host: fr-01.cloudlion.me
     path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇫🇷_FR_法国 2
+  name: 🇺🇸 _US_美国->🇨🇳_CN_中国 2
   network: ws
   port: 80
-  server: v157.runba.gq
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: v157.runba.gq
-    path: /frfrfffvmn01N
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇮🇹_IT_意大利
-  network: ws
-  port: 80
-  server: 172.64.101.98
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: dd93cca1-c21b-484f-a104-07a797e4161f
-  ws-opts:
-    headers:
-      Host: ml4.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 11
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
+  server: 162.159.243.53
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -5961,40 +6010,49 @@ proxies:
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: lv2.scproxy.top
+      Host: ca.ilovescp.com
     path: /shirker
+- client-fingerprint: chrome
+  name: 🇸🇬 _SG_新加坡 2
+  password: faf42aa0a9ad4c1e
+  port: 3306
+  server: 5.44.249.42
+  skip-cert-verify: false
+  sni: n2.gladns.com
+  tfo: false
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+  name: 🇺🇸 _US_美国 4
   network: ws
-  port: 80
-  server: 8745.outline-vpn.cloud
+  port: 2082
+  server: 104.31.16.46
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 392053a2-c18f-4914-890c-fd326ee27b4f
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   ws-opts:
     headers:
-      Host: mm4.shabijichang.com
-    path: /
+      Host: ca5.tehme100.fun
+    path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇨🇦 _CA_加拿大 3
+  name: 🇺🇸 _US_美国 5
   network: ws
   port: 443
-  server: dongtaiwang3.com
+  server: zfc.windowsupdate1.com
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 682da156-2475-43f4-8036-aa8d08918f76
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+      Host: us2.yfjc.sbs
+    path: /yfjc/us2?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -6014,26 +6072,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇩🇪_DE_德国
+  name: 🇺🇸 _US_美国->🇨🇳_CN_中国 3
   network: ws
   port: 80
-  server: flkf2.shabijichang.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 392053a2-c18f-4914-890c-fd326ee27b4f
-  ws-opts:
-    headers:
-      Host: flkf2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国 12
-  network: ws
-  port: 80
-  server: 172.67.120.200
+  server: 172.67.59.39
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -6041,100 +6083,12 @@ proxies:
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: lv2.scproxy.top
+      Host: ca.ilovescp.com
     path: /shirker
-- client-fingerprint: chrome
-  name: 🇸🇬 _SG_新加坡 2
-  password: 5227e84e4f026b71
-  port: 3306
-  server: 5.44.249.50
-  skip-cert-verify: false
-  sni: n2.gladns.com
-  tfo: false
-  type: trojan
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-  port: 51165
-  server: 183.233.187.232
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇯🇵 _JP_日本
-  port: 23234
-  server: jp6.lianpi.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡
-  network: ws
-  port: 80
-  server: sg2.wyhkaa0.cf
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fc426675-5daa-46c0-d998-61f9f5323e3f
-  ws-opts:
-    headers:
-      Host: sg2.wyhkaa0.cf
-    path: /TG:@hkaa0
-- client-fingerprint: chrome
-  name: 🇸🇬 _SG_新加坡 3
-  password: 36fe28a331638747
-  port: 3306
-  server: 5.44.249.44
-  skip-cert-verify: false
-  sni: n2.gladns.com
-  tfo: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇫🇷_FR_法国 3
-  network: ws
-  port: 443
-  server: 172.67.180.138
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  ws-opts:
-    headers:
-      Host: Lille.bobbykotick.rip
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-  network: ws
-  port: 8443
-  server: 188.114.99.0
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-  ws-opts:
-    headers:
-      Host: cloudconebbb.gorgorchicken.one
-    path: /cloudconebbb
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚 2
+  name: 🇺🇸 _US_美国->🇮🇳_IN_印度 2
   network: ws
   port: 80
   server: 172.64.195.218
@@ -6145,24 +6099,382 @@ proxies:
   uuid: 392053a2-c18f-4914-890c-fd326ee27b4f
   ws-opts:
     headers:
-      Host: xn2.shabijichang.com
+      Host: hdlb2.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国->🇮🇹_IT_意大利
+  network: ws
+  port: 80
+  server: ml4.shabijichang.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 52cce261-ff53-439a-b97d-f36201842cdb
+  ws-opts:
+    headers:
+      Host: ml4.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 6
+  network: ws
+  port: 80
+  server: 172.64.103.88
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: lv2.scproxy.top
+    path: /shirker
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 7
+  network: ws
+  port: 443
+  server: 192.74.244.180
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.49419962.xyz
+    path: /path/211826353201
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 8
+  network: ws
+  port: 8080
+  server: hk2.mianfenyun012.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a04922f6-5766-49ba-d9fb-8aba40f49277
+  ws-opts:
+    headers:
+      Host: hk2.mianfenyun012.eu.org
+    path: /jdbp606
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 9
+  network: ws
+  port: 443
+  server: 198.2.244.20
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.47722380.xyz
+    path: /path/211826353201
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国->🇨🇳_CN_中国 4
+  network: ws
+  port: 80
+  server: 172.67.120.174
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 10
+  network: ws
+  port: 443
+  server: 137.175.82.148
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.66699852.xyz
+    path: /path/140319000216
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 11
+  network: ws
+  port: 80
+  server: 172.64.203.172
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国->🇻🇳_VN_越南
+  network: ws
+  port: 2052
+  server: Tokyo.mfa.ee
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 992889a7-296e-4a44-98c2-0eb89af4411d
+  ws-opts:
+    headers:
+      Host: vnpt.iiio.wiki
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+  network: ws
+  port: 80
+  server: 172.67.146.22
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 392053a2-c18f-4914-890c-fd326ee27b4f
+  ws-opts:
+    headers:
+      Host: hdlb2.shabijichang.com
+    path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 12
+  network: ws
+  port: 443
+  server: 142.0.129.247
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.64830206.xyz
+    path: /path/053133263111
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 13
+  network: ws
+  port: 80
+  server: 172.67.83.191
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: lv2.scproxy.top
+    path: /shirker
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 14
+  network: ws
+  port: 443
+  server: 198.2.204.35
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.75575729.xyz
+    path: /path/1694663103114
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 🇺🇸 _US_美国->🇮🇳_IN_印度 4
   network: ws
   port: 80
-  server: hdlb2.shabijichang.com
+  server: mm4.shabijichang.com
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
   ws-opts:
     headers:
-      Host: hdlb2.shabijichang.com
+      Host: mm4.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 15
+  network: ws
+  port: 443
+  server: edeen.makeup
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: edeen.makeup
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 16
+  network: ws
+  port: 80
+  server: 172.67.53.250
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 392053a2-c18f-4914-890c-fd326ee27b4f
+  ws-opts:
+    headers:
+      Host: asb3.shabijichang.com
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬 _SG_新加坡 3
+  password: 2a5ccc8198d4af09
+  port: 3306
+  server: 5.44.249.52
+  skip-cert-verify: false
+  sni: n2.gladns.com
+  tfo: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 17
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: lv2.scproxy.top
+    path: /shirker
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇫🇷 _FR_法国->🇳🇱_NL_荷兰
+  network: ws
+  port: 443
+  server: 156.249.18.50
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.69414502.xyz
+    path: /path/1694663103114
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 18
+  network: ws
+  port: 443
+  server: 108.186.178.129
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.88998600.xyz
+    path: /path/211826353201
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国->🇮🇳_IN_印度 5
+  network: ws
+  port: 80
+  server: 8745.outline-vpn.cloud
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 392053a2-c18f-4914-890c-fd326ee27b4f
+  ws-opts:
+    headers:
+      Host: mm4.shabijichang.com
+    path: /
+- client-fingerprint: chrome
+  name: 🇺🇸 _CN_中国->🇺🇸_US_美国
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 41929
+  server: 14.18.108.108
+  skip-cert-verify: false
+  sni: nl01.lovehjq.xyz
+  tfo: false
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇳🇱 _CN_中国->🇳🇱_NL_荷兰
+  password: 682da156-2475-43f4-8036-aa8d08918f76
+  port: 38200
+  server: 42.7.24.142
+  skip-cert-verify: false
+  sni: nl1.liangxinjichang.top
+  tfo: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 19
+  network: ws
+  port: 2052
+  server: jp.yx.alue.link
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: de0b9c1c-59f6-4433-bb88-0d7286201d90
+  ws-opts:
+    headers:
+      Host: jp.wx.alue.link
+    path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 _US_美国 20
+  port: 56986
+  server: 192.74.234.90
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   name: 🇬🇧 更多免费节点:https://rss.uk.to/
   password: 6601fb90e9b3
@@ -6173,149 +6485,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国 CloudFlare节点
-  network: ws
-  port: 80
-  server: 162.159.60.89
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a60c15e-cbcd-486d-aee6-07a494f403e3
-  ws-opts:
-    headers:
-      Host: xby.daozhang.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 CloudFlare节点 2
-  network: ws
-  port: 80
-  server: hdlb3.shabijichang.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 392053a2-c18f-4914-890c-fd326ee27b4f
-  ws-opts:
-    headers:
-      Host: hdlb3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 CloudFlare节点 3
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: lv2.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 CloudFlare节点 4
-  network: ws
-  port: 80
-  server: 172.64.101.98
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f4d9baa8-9115-4f2a-8c29-d49993174bef
-  ws-opts:
-    headers:
-      Host: shs.shabijichang.com
-    path: /
-- name: 🇺🇸 美国 v2rayfree.eu.org
-  password: 5eb2c89b-57e8-4fb8-9c22-66ba06479b1d
-  port: 443
-  server: ry.ywcloud.cf
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare公司CDN节点(shopify) 1
-  network: ws
-  port: 443
-  server: 23.227.38.82
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare公司CDN节点 2
-  network: ws
-  port: 80
-  server: asb3.shabijichang.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ef591064-640a-48e0-a511-623d5c0e67e9
-  ws-opts:
-    headers:
-      Host: asb3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 3
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: lv2.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 4
-  network: ws
-  port: 8080
-  server: us1.mianfenyun012.eu.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 89e8501d-1a59-4754-cdc2-0e6334b97e3b
-  ws-opts:
-    headers:
-      Host: us1.mianfenyun012.eu.org
-    path: /jdbp606
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare公司CDN节点 5
-  network: ws
-  port: 443
-  server: 104.31.16.196
-  servername: us-1.acyun.tk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-  ws-opts:
-    headers:
-      Host: us-1.acyun.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare公司CDN节点 6
   network: ws
   port: 80
   server: hdlb2.shabijichang.com
@@ -6330,7 +6499,138 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 7
+  name: 🇺🇸 美国 CloudFlare节点 2
+  network: ws
+  port: 2052
+  server: datacenter.ct.02.biqibao.site
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 05130b10-ce74-48ec-9f43-ce80e6244eba
+  ws-opts:
+    headers:
+      Host: de.biqibao.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+  network: ws
+  port: 443
+  server: 23.227.38.82
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+  network: ws
+  port: 443
+  server: 107.167.16.85
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f
+  ws-opts:
+    headers:
+      Host: www.51109057.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国 CloudFlare节点 3
+  network: ws
+  port: 80
+  server: 172.67.63.75
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6567eb30-6982-4484-bb9a-97232b229f2f
+  ws-opts:
+    headers:
+      Host: mm4.shabijichang.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🇿🇦 南非  1
+  port: 51181
+  server: 156.225.67.23
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国CloudFlare公司CDN节点 2
+  network: ws
+  port: 80
+  server: sg2.wyhkaa0.cf
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fc426675-5daa-46c0-d998-61f9f5323e3f
+  ws-opts:
+    headers:
+      Host: sg2.wyhkaa0.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国CloudFlare节点 3
+  network: ws
+  port: 443
+  server: bobbykotick.rip
+  servername: Dusseldorf.bobbykotick.rip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  ws-opts:
+    headers:
+      Host: Dusseldorf.bobbykotick.rip
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国CloudFlare公司CDN节点 4
+  network: ws
+  port: 2052
+  server: iran01.biqibao.site
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4931e941-77c6-4144-a8b9-5c252ee36c30
+  ws-opts:
+    headers:
+      Host: de2.biqibao.site
+    path: /public?ed=4096
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国CloudFlare节点 5
+  network: ws
+  port: 8880
+  server: yd1.992688.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf
+  ws-opts:
+    headers:
+      Host: euserv2.vpn66.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国CloudFlare公司CDN节点 6
   network: ws
   port: 80
   server: sg.wyhkaa0.cf
@@ -6345,157 +6645,37 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国CloudFlare公司CDN节点 8
-  network: ws
-  port: 80
-  server: sbl3.shabijichang.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
-  ws-opts:
-    headers:
-      Host: sbl3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 9
-  network: ws
-  port: 8443
-  server: 172.67.184.53
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-  ws-opts:
-    headers:
-      Host: cloudconebbb.gorgorchicken.one
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare公司CDN节点(shopify) 10
+  name: 🇺🇸 美国CloudFlare节点 7
   network: ws
   port: 443
-  server: dongtaiwang2.com
+  server: 162.159.137.22
   skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  uuid: 5b655ae0-9937-4a07-8cd3-9ff50cdb2c48
   ws-opts:
     headers:
-      Host: 3.freek1.xyz
+      Host: jp.denny.cf
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 11
+  name: 🇺🇸 美国CloudFlare节点 8
   network: ws
   port: 80
-  server: 162.159.60.89
+  server: cf-lt.sharecentre.online
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 7a60c15e-cbcd-486d-aee6-07a494f403e3
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: xby.daozhang.link
-    path: /
+      Host: lv2.scproxy.top
+    path: /shirker
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 12
-  network: ws
-  port: 8880
-  server: ns1.v2-vip.fun
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  ws-opts:
-    headers:
-      Host: fr7.tehme100.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare公司CDN节点 13
-  network: ws
-  port: 2082
-  server: 104.31.16.46
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ca5.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 14
-  network: ws
-  port: 80
-  server: asb3.shabijichang.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4d10e7d8-31ad-4bff-8885-bc87ac942db3
-  ws-opts:
-    headers:
-      Host: asb3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 15
-  network: ws
-  port: 80
-  server: 172.67.128.217
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 00d3cc1c-1af0-4f52-8410-6fad778111e3
-  ws-opts:
-    headers:
-      Host: ml4.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 16
-  network: ws
-  port: 8880
-  server: yd1.992688.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 27998387-fc3b-4237-9ac9-aba5d00bbd6e
-  ws-opts:
-    headers:
-      Host: haxus3.vpn66.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 17
-  network: ws
-  port: 80
-  server: fhc.shabijichang.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: baa2d4f8-feba-424a-8386-62f455c8f08a
-  ws-opts:
-    headers:
-      Host: fhc.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare公司CDN节点 18
+  name: 🇺🇸 美国CloudFlare公司CDN节点 9
   network: ws
   port: 80
   server: v117.runba.gq
@@ -6508,110 +6688,35 @@ proxies:
     headers:
       Host: v117.runba.gq
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 19
-  network: ws
-  port: 80
-  server: 172.64.199.158
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e495227-58e3-4bea-a273-7a17bd8a804b
-  ws-opts:
-    headers:
-      Host: wnd.shabijichang.com
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 安徽省亳州市移动 20
-  password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10701
-  server: yidong.liulangdiqiu.cyou
+  name: 安徽省亳州市移动 10
+  password: 788c06bf-83b0-4186-b45d-8966efc7c3fc
+  port: 27145
+  server: hefei.chiguayun.cc
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 21
+  name: 🇺🇸 美国CloudFlare公司CDN节点 11
   network: ws
-  port: 80
-  server: 172.64.199.158
+  port: 2082
+  server: 104.31.16.46
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 28645c6e-8ad9-44c0-8ecd-d76f8a285262
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   ws-opts:
     headers:
-      Host: sdgrm.shabijichang.com
-    path: /?ed=14501
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 22
-  network: ws
-  port: 80
-  server: 172.64.101.98
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f4d9baa8-9115-4f2a-8c29-d49993174bef
-  ws-opts:
-    headers:
-      Host: shs.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 23
-  network: ws
-  port: 80
-  server: fd.shabijichang.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 81fc114e-44d7-44c7-9912-942453b03154
-  ws-opts:
-    headers:
-      Host: ms.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare公司CDN节点 24
-  network: ws
-  port: 80
-  server: fhc.shabijichang.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: fhc.shabijichang.com
-    path: /
+      Host: ca5.tehme100.fun
+    path: /IOebhLMhl1CTbFHbL95myfRX2
 - cipher: chacha20-ietf-poly1305
-  name: 安徽省亳州市移动 25
-  password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10718
-  server: yidong.liulangdiqiu.cyou
+  name: 安徽省亳州市移动 12
+  password: 788c06bf-83b0-4186-b45d-8966efc7c3fc
+  port: 27124
+  server: hefei.chiguayun.cc
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国CloudFlare节点 26
-  network: ws
-  port: 80
-  server: 172.67.78.109
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 272b3891-e103-45e0-8b09-f4d770bf5ba4
-  ws-opts:
-    headers:
-      Host: wnd.shabijichang.com
-    path: /
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -6816,55 +6921,42 @@ proxy-groups:
   - 日本 002
   - 加拿大 081
   - 美国 074
-  - 美国 075
   - 加拿大 082
   - 加拿大 083
-  - 美国 076
+  - 美国 075
   - 加拿大 084
+  - 美国 076
   - 美国 077
-  - 美国 078
   - 加拿大 085
   - 加拿大 086
   - 加拿大 087
   - 加拿大 088
-  - 英国 001
   - 加拿大 089
   - 加拿大 090
-  - 美国 079
+  - 美国 078
   - 加拿大 091
   - 加拿大 092
   - 加拿大 093
   - 加拿大 094
   - 加拿大 095
   - 加拿大 096
-  - 美国 080
-  - 美国 081
-  - 美国 082
-  - 美国 083
-  - 美国 084
-  - 美国 085
   - 加拿大 097
-  - 美国 086
-  - 美国 087
-  - 美国 088
   - 加拿大 098
   - 加拿大 099
   - 加拿大 100
-  - 美国 089
+  - 美国 079
   - 加拿大 101
   - 加拿大 102
   - 加拿大 103
   - 加拿大 104
   - 加拿大 105
   - 加拿大 106
-  - 美国 090
+  - 美国 080
   - 日本 003
-  - 美国 091
   - 加拿大 107
-  - 美国 092
   - 新加坡 001
   - 加拿大 108
-  - 美国 093
+  - 美国 081
   - 荷兰 007
   - 香港 019
   - 香港 020
@@ -6872,17 +6964,17 @@ proxy-groups:
   - 荷兰 008
   - 加拿大 109
   - 荷兰 009
-  - 美国 094
+  - 美国 082
   - 加拿大 110
   - 荷兰 010
-  - 美国 095
+  - 美国 083
   - 加拿大 111
-  - 美国 096
+  - 美国 084
   - 香港 022
   - 香港 023
   - 香港 024
   - 加拿大 112
-  - 美国 097
+  - 美国 085
   - 香港 025
   - 香港 026
   - 加拿大 113
@@ -6892,79 +6984,59 @@ proxy-groups:
   - 加拿大 114
   - 俄罗斯 001
   - 加拿大 115
-  - 美国 098
+  - 美国 086
   - 日本 004
-  - 美国 099
+  - 美国 087
   - 加拿大 116
   - 加拿大 117
   - 加拿大 118
-  - 美国 100
-  - 美国 101
-  - 美国 102
-  - 美国 103
-  - 美国 104
-  - 美国 105
-  - 美国 106
-  - 美国 107
-  - 美国 108
-  - 美国 109
-  - 美国 110
+  - 美国 088
+  - 美国 089
+  - 美国 090
+  - 美国 091
   - 塞浦路斯 001
   - 塞浦路斯 002
   - 加拿大 119
-  - 美国 111
+  - 美国 092
   - 加拿大 120
   - 加拿大 121
-  - 美国 112
   - 加拿大 122
-  - 美国 113
-  - 美国 114
+  - 美国 093
+  - 美国 094
   - 加拿大 123
-  - 美国 115
   - 加拿大 124
-  - 美国 116
+  - 美国 095
   - 加拿大 125
-  - 美国 117
-  - 美国 118
+  - 美国 096
   - 加拿大 126
-  - 美国 119
   - 加拿大 127
   - 加拿大 128
-  - 日本 005
-  - 南非 001
-  - 美国 120
-  - 美国 121
   - 加拿大 129
-  - 美国 122
-  - 美国 123
-  - 美国 124
-  - 美国 125
+  - 美国 097
   - 加拿大 130
-  - 美国 126
+  - 美国 098
   - 加拿大 131
-  - 美国 127
-  - 美国 128
+  - 美国 099
   - 越南 001
   - 加拿大 132
   - 加拿大 133
-  - 美国 129
   - 巴西 001
-  - 美国 130
+  - 美国 100
   - 越南 002
   - 加拿大 134
   - 加拿大 135
   - 罗马尼亚 001
   - 加拿大 136
-  - 美国 131
+  - 美国 101
   - 加拿大 137
-  - 美国 132
-  - 美国 133
-  - 美国 134
-  - 美国 135
+  - 美国 102
+  - 美国 103
+  - 美国 104
+  - 美国 105
   - 加拿大 138
   - 加拿大 139
   - 加拿大 140
-  - 美国 136
+  - 美国 106
   - 加拿大 141
   - 加拿大 142
   - 加拿大 143
@@ -6972,26 +7044,73 @@ proxy-groups:
   - 加拿大 145
   - 加拿大 146
   - 加拿大 147
-  - 美国 137
-  - 美国 138
+  - 美国 107
+  - 美国 108
   - 加拿大 148
   - 加拿大 149
-  - 美国 139
+  - 美国 109
   - 加拿大 150
   - 加拿大 151
-  - 美国 140
-  - 美国 141
-  - 美国 142
+  - 美国 110
+  - 美国 111
+  - 美国 112
   - 加拿大 152
-  - 美国 143
   - 荷兰 012
   - 韩国 006
-  - 美国 144
   - 加拿大 153
-  - 美国 145
   - 荷兰 013
   - 波兰 003
+  - 美国 113
+  - 美国 114
+  - 美国 115
+  - 美国 116
+  - 美国 117
+  - 美国 118
+  - 美国 119
+  - 美国 120
+  - 美国 121
+  - 美国 122
+  - 德国 001
+  - 加拿大 154
+  - 美国 123
+  - 美国 124
+  - 美国 125
+  - 美国 126
+  - 美国 127
+  - 荷兰 014
+  - 美国 128
+  - 美国 129
+  - 美国 130
+  - 美国 131
+  - 美国 132
+  - 美国 133
+  - 美国 134
+  - 美国 135
+  - 美国 136
+  - 加拿大 155
+  - 美国 137
+  - 加拿大 156
+  - 加拿大 157
+  - 法国 004
+  - 法国 005
+  - 法国 006
+  - 加拿大 158
+  - 加拿大 159
+  - 法国 007
+  - 美国 138
+  - 美国 139
+  - 美国 140
+  - 美国 141
+  - 加拿大 160
+  - 加拿大 161
+  - 美国 142
+  - 美国 143
+  - 加拿大 162
+  - 美国 144
+  - 新加坡 002
+  - 美国 145
   - 美国 146
+  - 加拿大 163
   - 美国 147
   - 美国 148
   - 美国 149
@@ -7001,100 +7120,92 @@ proxy-groups:
   - 美国 153
   - 美国 154
   - 美国 155
+  - 加拿大 164
+  - 加拿大 165
+  - 加拿大 166
+  - 伊朗 001
+  - 德国 002
+  - 加拿大 167
+  - 加拿大 168
+  - 加拿大 169
   - 美国 156
-  - 德国 001
-  - 加拿大 154
   - 美国 157
   - 美国 158
   - 美国 159
   - 美国 160
   - 美国 161
+  - 捷克 001
   - 美国 162
-  - 荷兰 014
+  - 加拿大 170
+  - 加拿大 171
+  - 加拿大 172
   - 美国 163
   - 美国 164
   - 美国 165
+  - 加拿大 173
   - 美国 166
   - 美国 167
   - 美国 168
-  - 美国 169
-  - 美国 170
-  - 美国 171
-  - 加拿大 155
-  - 美国 172
-  - 加拿大 156
-  - 🇺🇸 _US_美国
-  - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-  - 🇺🇸 _US_美国 2
-  - 🇺🇸 _US_美国 3
-  - 🇺🇸 _US_美国 4
-  - 🇸🇬 _SG_新加坡
-  - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
-  - 🇺🇸 _US_美国->🇮🇳_IN_印度
-  - 🇺🇸 _US_美国->🇮🇳_IN_印度 2
-  - 🇨🇦 _CA_加拿大
-  - 🇺🇸 _US_美国->🇻🇳_VN_越南
-  - 🇨🇦 _CA_加拿大 2
-  - 🇺🇸 _US_美国 5
-  - 🇺🇸 _US_美国 6
+  - 加拿大 174
+  - 加拿大 175
   - 🇺🇸 _US_美国->🇨🇳_CN_中国
-  - 🇺🇸 _US_美国 7
-  - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国
-  - 🇺🇸 _US_美国 8
-  - 🇺🇸 _CN_中国->🇺🇸_US_美国
-  - 🇭🇰 _HK_香港
-  - 🇺🇸 _US_美国 9
-  - 🇺🇸 _US_美国 10
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-  - 🇺🇸 _US_美国->🇮🇹_IT_意大利
-  - 🇺🇸 _US_美国 11
-  - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
-  - 🇨🇦 _CA_加拿大 3
-  - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-  - 🇺🇸 _US_美国->🇩🇪_DE_德国
-  - 🇺🇸 _US_美国 12
-  - 🇸🇬 _SG_新加坡 2
-  - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-  - 🇯🇵 _JP_日本
+  - 🇺🇸 _US_美国->🇮🇳_IN_印度
+  - 🇺🇸 _US_美国
+  - 🇺🇸 _US_美国 2
+  - 🇸🇬 _SG_新加坡
   - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
-  - 🇸🇬 _SG_新加坡 3
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
-  - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-  - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚 2
+  - 🇺🇸 _US_美国 3
+  - 🇺🇸 _US_美国->🇫🇷_FR_法国
+  - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+  - 🇸🇬 _SG_新加坡 2
+  - 🇺🇸 _US_美国 4
+  - 🇺🇸 _US_美国 5
+  - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+  - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
+  - 🇺🇸 _US_美国->🇮🇳_IN_印度 2
+  - 🇺🇸 _US_美国->🇮🇹_IT_意大利
+  - 🇺🇸 _US_美国 6
+  - 🇺🇸 _US_美国 7
+  - 🇺🇸 _US_美国 8
+  - 🇺🇸 _US_美国 9
+  - 🇺🇸 _US_美国->🇨🇳_CN_中国 4
+  - 🇺🇸 _US_美国 10
+  - 🇺🇸 _US_美国 11
+  - 🇺🇸 _US_美国->🇻🇳_VN_越南
+  - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+  - 🇺🇸 _US_美国 12
+  - 🇺🇸 _US_美国 13
+  - 🇺🇸 _US_美国 14
   - 🇺🇸 _US_美国->🇮🇳_IN_印度 4
+  - 🇺🇸 _US_美国 15
+  - 🇺🇸 _US_美国 16
+  - 🇸🇬 _SG_新加坡 3
+  - 🇺🇸 _US_美国 17
+  - 🇫🇷 _FR_法国->🇳🇱_NL_荷兰
+  - 🇺🇸 _US_美国 18
+  - 🇺🇸 _US_美国->🇮🇳_IN_印度 5
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国
+  - 🇳🇱 _CN_中国->🇳🇱_NL_荷兰
+  - 🇺🇸 _US_美国 19
+  - 🇺🇸 _US_美国 20
   - 🇬🇧 更多免费节点:https://rss.uk.to/
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
+  - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+  - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
   - 🇺🇸 美国 CloudFlare节点 3
-  - 🇺🇸 美国 CloudFlare节点 4
-  - 🇺🇸 美国 v2rayfree.eu.org
-  - 🇺🇸 美国CloudFlare公司CDN节点(shopify) 1
+  - 🇿🇦 南非  1
   - 🇺🇸 美国CloudFlare公司CDN节点 2
   - 🇺🇸 美国CloudFlare节点 3
-  - 🇺🇸 美国CloudFlare节点 4
-  - 🇺🇸 美国CloudFlare公司CDN节点 5
+  - 🇺🇸 美国CloudFlare公司CDN节点 4
+  - 🇺🇸 美国CloudFlare节点 5
   - 🇺🇸 美国CloudFlare公司CDN节点 6
   - 🇺🇸 美国CloudFlare节点 7
-  - 🇺🇸 美国CloudFlare公司CDN节点 8
-  - 🇺🇸 美国CloudFlare节点 9
-  - 🇺🇸 美国CloudFlare公司CDN节点(shopify) 10
-  - 🇺🇸 美国CloudFlare节点 11
-  - 🇺🇸 美国CloudFlare节点 12
-  - 🇺🇸 美国CloudFlare公司CDN节点 13
-  - 🇺🇸 美国CloudFlare节点 14
-  - 🇺🇸 美国CloudFlare节点 15
-  - 🇺🇸 美国CloudFlare节点 16
-  - 🇺🇸 美国CloudFlare节点 17
-  - 🇺🇸 美国CloudFlare公司CDN节点 18
-  - 🇺🇸 美国CloudFlare节点 19
-  - 安徽省亳州市移动 20
-  - 🇺🇸 美国CloudFlare节点 21
-  - 🇺🇸 美国CloudFlare节点 22
-  - 🇺🇸 美国CloudFlare节点 23
-  - 🇺🇸 美国CloudFlare公司CDN节点 24
-  - 安徽省亳州市移动 25
-  - 🇺🇸 美国CloudFlare节点 26
+  - 🇺🇸 美国CloudFlare节点 8
+  - 🇺🇸 美国CloudFlare公司CDN节点 9
+  - 安徽省亳州市移动 10
+  - 🇺🇸 美国CloudFlare公司CDN节点 11
+  - 安徽省亳州市移动 12
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -7298,55 +7409,42 @@ proxy-groups:
   - 日本 002
   - 加拿大 081
   - 美国 074
-  - 美国 075
   - 加拿大 082
   - 加拿大 083
-  - 美国 076
+  - 美国 075
   - 加拿大 084
+  - 美国 076
   - 美国 077
-  - 美国 078
   - 加拿大 085
   - 加拿大 086
   - 加拿大 087
   - 加拿大 088
-  - 英国 001
   - 加拿大 089
   - 加拿大 090
-  - 美国 079
+  - 美国 078
   - 加拿大 091
   - 加拿大 092
   - 加拿大 093
   - 加拿大 094
   - 加拿大 095
   - 加拿大 096
-  - 美国 080
-  - 美国 081
-  - 美国 082
-  - 美国 083
-  - 美国 084
-  - 美国 085
   - 加拿大 097
-  - 美国 086
-  - 美国 087
-  - 美国 088
   - 加拿大 098
   - 加拿大 099
   - 加拿大 100
-  - 美国 089
+  - 美国 079
   - 加拿大 101
   - 加拿大 102
   - 加拿大 103
   - 加拿大 104
   - 加拿大 105
   - 加拿大 106
-  - 美国 090
+  - 美国 080
   - 日本 003
-  - 美国 091
   - 加拿大 107
-  - 美国 092
   - 新加坡 001
   - 加拿大 108
-  - 美国 093
+  - 美国 081
   - 荷兰 007
   - 香港 019
   - 香港 020
@@ -7354,17 +7452,17 @@ proxy-groups:
   - 荷兰 008
   - 加拿大 109
   - 荷兰 009
-  - 美国 094
+  - 美国 082
   - 加拿大 110
   - 荷兰 010
-  - 美国 095
+  - 美国 083
   - 加拿大 111
-  - 美国 096
+  - 美国 084
   - 香港 022
   - 香港 023
   - 香港 024
   - 加拿大 112
-  - 美国 097
+  - 美国 085
   - 香港 025
   - 香港 026
   - 加拿大 113
@@ -7374,79 +7472,59 @@ proxy-groups:
   - 加拿大 114
   - 俄罗斯 001
   - 加拿大 115
-  - 美国 098
+  - 美国 086
   - 日本 004
-  - 美国 099
+  - 美国 087
   - 加拿大 116
   - 加拿大 117
   - 加拿大 118
-  - 美国 100
-  - 美国 101
-  - 美国 102
-  - 美国 103
-  - 美国 104
-  - 美国 105
-  - 美国 106
-  - 美国 107
-  - 美国 108
-  - 美国 109
-  - 美国 110
+  - 美国 088
+  - 美国 089
+  - 美国 090
+  - 美国 091
   - 塞浦路斯 001
   - 塞浦路斯 002
   - 加拿大 119
-  - 美国 111
+  - 美国 092
   - 加拿大 120
   - 加拿大 121
-  - 美国 112
   - 加拿大 122
-  - 美国 113
-  - 美国 114
+  - 美国 093
+  - 美国 094
   - 加拿大 123
-  - 美国 115
   - 加拿大 124
-  - 美国 116
+  - 美国 095
   - 加拿大 125
-  - 美国 117
-  - 美国 118
+  - 美国 096
   - 加拿大 126
-  - 美国 119
   - 加拿大 127
   - 加拿大 128
-  - 日本 005
-  - 南非 001
-  - 美国 120
-  - 美国 121
   - 加拿大 129
-  - 美国 122
-  - 美国 123
-  - 美国 124
-  - 美国 125
+  - 美国 097
   - 加拿大 130
-  - 美国 126
+  - 美国 098
   - 加拿大 131
-  - 美国 127
-  - 美国 128
+  - 美国 099
   - 越南 001
   - 加拿大 132
   - 加拿大 133
-  - 美国 129
   - 巴西 001
-  - 美国 130
+  - 美国 100
   - 越南 002
   - 加拿大 134
   - 加拿大 135
   - 罗马尼亚 001
   - 加拿大 136
-  - 美国 131
+  - 美国 101
   - 加拿大 137
-  - 美国 132
-  - 美国 133
-  - 美国 134
-  - 美国 135
+  - 美国 102
+  - 美国 103
+  - 美国 104
+  - 美国 105
   - 加拿大 138
   - 加拿大 139
   - 加拿大 140
-  - 美国 136
+  - 美国 106
   - 加拿大 141
   - 加拿大 142
   - 加拿大 143
@@ -7454,26 +7532,73 @@ proxy-groups:
   - 加拿大 145
   - 加拿大 146
   - 加拿大 147
-  - 美国 137
-  - 美国 138
+  - 美国 107
+  - 美国 108
   - 加拿大 148
   - 加拿大 149
-  - 美国 139
+  - 美国 109
   - 加拿大 150
   - 加拿大 151
-  - 美国 140
-  - 美国 141
-  - 美国 142
+  - 美国 110
+  - 美国 111
+  - 美国 112
   - 加拿大 152
-  - 美国 143
   - 荷兰 012
   - 韩国 006
-  - 美国 144
   - 加拿大 153
-  - 美国 145
   - 荷兰 013
   - 波兰 003
+  - 美国 113
+  - 美国 114
+  - 美国 115
+  - 美国 116
+  - 美国 117
+  - 美国 118
+  - 美国 119
+  - 美国 120
+  - 美国 121
+  - 美国 122
+  - 德国 001
+  - 加拿大 154
+  - 美国 123
+  - 美国 124
+  - 美国 125
+  - 美国 126
+  - 美国 127
+  - 荷兰 014
+  - 美国 128
+  - 美国 129
+  - 美国 130
+  - 美国 131
+  - 美国 132
+  - 美国 133
+  - 美国 134
+  - 美国 135
+  - 美国 136
+  - 加拿大 155
+  - 美国 137
+  - 加拿大 156
+  - 加拿大 157
+  - 法国 004
+  - 法国 005
+  - 法国 006
+  - 加拿大 158
+  - 加拿大 159
+  - 法国 007
+  - 美国 138
+  - 美国 139
+  - 美国 140
+  - 美国 141
+  - 加拿大 160
+  - 加拿大 161
+  - 美国 142
+  - 美国 143
+  - 加拿大 162
+  - 美国 144
+  - 新加坡 002
+  - 美国 145
   - 美国 146
+  - 加拿大 163
   - 美国 147
   - 美国 148
   - 美国 149
@@ -7483,100 +7608,92 @@ proxy-groups:
   - 美国 153
   - 美国 154
   - 美国 155
+  - 加拿大 164
+  - 加拿大 165
+  - 加拿大 166
+  - 伊朗 001
+  - 德国 002
+  - 加拿大 167
+  - 加拿大 168
+  - 加拿大 169
   - 美国 156
-  - 德国 001
-  - 加拿大 154
   - 美国 157
   - 美国 158
   - 美国 159
   - 美国 160
   - 美国 161
+  - 捷克 001
   - 美国 162
-  - 荷兰 014
+  - 加拿大 170
+  - 加拿大 171
+  - 加拿大 172
   - 美国 163
   - 美国 164
   - 美国 165
+  - 加拿大 173
   - 美国 166
   - 美国 167
   - 美国 168
-  - 美国 169
-  - 美国 170
-  - 美国 171
-  - 加拿大 155
-  - 美国 172
-  - 加拿大 156
-  - 🇺🇸 _US_美国
-  - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-  - 🇺🇸 _US_美国 2
-  - 🇺🇸 _US_美国 3
-  - 🇺🇸 _US_美国 4
-  - 🇸🇬 _SG_新加坡
-  - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
-  - 🇺🇸 _US_美国->🇮🇳_IN_印度
-  - 🇺🇸 _US_美国->🇮🇳_IN_印度 2
-  - 🇨🇦 _CA_加拿大
-  - 🇺🇸 _US_美国->🇻🇳_VN_越南
-  - 🇨🇦 _CA_加拿大 2
-  - 🇺🇸 _US_美国 5
-  - 🇺🇸 _US_美国 6
+  - 加拿大 174
+  - 加拿大 175
   - 🇺🇸 _US_美国->🇨🇳_CN_中国
-  - 🇺🇸 _US_美国 7
-  - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国
-  - 🇺🇸 _US_美国 8
-  - 🇺🇸 _CN_中国->🇺🇸_US_美国
-  - 🇭🇰 _HK_香港
-  - 🇺🇸 _US_美国 9
-  - 🇺🇸 _US_美国 10
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-  - 🇺🇸 _US_美国->🇮🇹_IT_意大利
-  - 🇺🇸 _US_美国 11
-  - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
-  - 🇨🇦 _CA_加拿大 3
-  - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-  - 🇺🇸 _US_美国->🇩🇪_DE_德国
-  - 🇺🇸 _US_美国 12
-  - 🇸🇬 _SG_新加坡 2
-  - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-  - 🇯🇵 _JP_日本
+  - 🇺🇸 _US_美国->🇮🇳_IN_印度
+  - 🇺🇸 _US_美国
+  - 🇺🇸 _US_美国 2
+  - 🇸🇬 _SG_新加坡
   - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
-  - 🇸🇬 _SG_新加坡 3
-  - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
-  - 🇺🇸 _NL_荷兰->🇺🇸_US_美国
-  - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚 2
+  - 🇺🇸 _US_美国 3
+  - 🇺🇸 _US_美国->🇫🇷_FR_法国
+  - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+  - 🇸🇬 _SG_新加坡 2
+  - 🇺🇸 _US_美国 4
+  - 🇺🇸 _US_美国 5
+  - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+  - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
+  - 🇺🇸 _US_美国->🇮🇳_IN_印度 2
+  - 🇺🇸 _US_美国->🇮🇹_IT_意大利
+  - 🇺🇸 _US_美国 6
+  - 🇺🇸 _US_美国 7
+  - 🇺🇸 _US_美国 8
+  - 🇺🇸 _US_美国 9
+  - 🇺🇸 _US_美国->🇨🇳_CN_中国 4
+  - 🇺🇸 _US_美国 10
+  - 🇺🇸 _US_美国 11
+  - 🇺🇸 _US_美国->🇻🇳_VN_越南
+  - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+  - 🇺🇸 _US_美国 12
+  - 🇺🇸 _US_美国 13
+  - 🇺🇸 _US_美国 14
   - 🇺🇸 _US_美国->🇮🇳_IN_印度 4
+  - 🇺🇸 _US_美国 15
+  - 🇺🇸 _US_美国 16
+  - 🇸🇬 _SG_新加坡 3
+  - 🇺🇸 _US_美国 17
+  - 🇫🇷 _FR_法国->🇳🇱_NL_荷兰
+  - 🇺🇸 _US_美国 18
+  - 🇺🇸 _US_美国->🇮🇳_IN_印度 5
+  - 🇺🇸 _CN_中国->🇺🇸_US_美国
+  - 🇳🇱 _CN_中国->🇳🇱_NL_荷兰
+  - 🇺🇸 _US_美国 19
+  - 🇺🇸 _US_美国 20
   - 🇬🇧 更多免费节点:https://rss.uk.to/
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
+  - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+  - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
   - 🇺🇸 美国 CloudFlare节点 3
-  - 🇺🇸 美国 CloudFlare节点 4
-  - 🇺🇸 美国 v2rayfree.eu.org
-  - 🇺🇸 美国CloudFlare公司CDN节点(shopify) 1
+  - 🇿🇦 南非  1
   - 🇺🇸 美国CloudFlare公司CDN节点 2
   - 🇺🇸 美国CloudFlare节点 3
-  - 🇺🇸 美国CloudFlare节点 4
-  - 🇺🇸 美国CloudFlare公司CDN节点 5
+  - 🇺🇸 美国CloudFlare公司CDN节点 4
+  - 🇺🇸 美国CloudFlare节点 5
   - 🇺🇸 美国CloudFlare公司CDN节点 6
   - 🇺🇸 美国CloudFlare节点 7
-  - 🇺🇸 美国CloudFlare公司CDN节点 8
-  - 🇺🇸 美国CloudFlare节点 9
-  - 🇺🇸 美国CloudFlare公司CDN节点(shopify) 10
-  - 🇺🇸 美国CloudFlare节点 11
-  - 🇺🇸 美国CloudFlare节点 12
-  - 🇺🇸 美国CloudFlare公司CDN节点 13
-  - 🇺🇸 美国CloudFlare节点 14
-  - 🇺🇸 美国CloudFlare节点 15
-  - 🇺🇸 美国CloudFlare节点 16
-  - 🇺🇸 美国CloudFlare节点 17
-  - 🇺🇸 美国CloudFlare公司CDN节点 18
-  - 🇺🇸 美国CloudFlare节点 19
-  - 安徽省亳州市移动 20
-  - 🇺🇸 美国CloudFlare节点 21
-  - 🇺🇸 美国CloudFlare节点 22
-  - 🇺🇸 美国CloudFlare节点 23
-  - 🇺🇸 美国CloudFlare公司CDN节点 24
-  - 安徽省亳州市移动 25
-  - 🇺🇸 美国CloudFlare节点 26
+  - 🇺🇸 美国CloudFlare节点 8
+  - 🇺🇸 美国CloudFlare公司CDN节点 9
+  - 安徽省亳州市移动 10
+  - 🇺🇸 美国CloudFlare公司CDN节点 11
+  - 安徽省亳州市移动 12
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎯 全球直连
