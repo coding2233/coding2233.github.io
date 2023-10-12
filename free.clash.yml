@@ -11681,6 +11681,156 @@ proxies:
     headers:
       host: jp.wx.alue.link
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: 2096
+  server: 162.159.129.71
+  servername: s5678543.shargh.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d8d39fca-8b6d-4f76-a505-e7917aa75435
+  ws-opts:
+    headers:
+      host: s1.shargh.shop
+    path: /
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_1
+  password: amazonskr05
+  port: 443
+  server: 18.236.64.177
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_2
+  password: amazonskr05
+  port: 443
+  server: 35.91.118.106
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇺🇸_US_美国_3
+  password: 83XvX4Vo%*3a
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    path: /
+  port: 1001
+  server: 216.52.183.243
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2082
+  server: fr-01.cloudlion.me
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 87646364-c074-4b95-81cf-4bded967ca02
+  ws-opts:
+    headers:
+      host: fr-01.cloudlion.me
+    path: /
+- cipher: aes-256-cfb
+  name: 🇬🇧_GB_英国_1
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.28
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇦🇫_AF_阿富汗
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 121.127.46.147
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_4
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 89.187.181.179
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧_GB_英国_2
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 198.244.231.24
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸_US_美国_5
+  network: ws
+  port: 30000
+  server: 156.225.67.104
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
+  ws-opts:
+    headers:
+      host: www.41758112.xyz
+    path: /path/1696944806961
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_6
+  network: ws
+  port: 8080
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  ws-opts:
+    headers:
+      host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_7
+  network: ws
+  port: 35425
+  server: 206.168.240.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 78e34495-c417-48d9-e592-8625f26611c7
+  ws-opts:
+    path: /jdbp606
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8
+  network: ws
+  port: 8080
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d
+  ws-opts:
+    headers:
+      host: ssrsub.v003.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: 2052
+  server: 104.16.68.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      host: lu.wx.alue.link
+    path: /
+- cipher: aes-256-cfb
+  name: 🇫🇷_FR_法国
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.195.96
+  type: ss
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -12603,6 +12753,21 @@ proxy-groups:
   - 🇺🇸_US_美国_3_24@22
   - 🇺🇸_US_美国_4_24@26
   - 🇺🇸_US_美国_5_24@28
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇬🇧_GB_英国_1
+  - 🇦🇫_AF_阿富汗
+  - 🇺🇸_US_美国_4
+  - 🇬🇧_GB_英国_2
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🇱🇺_LU_卢森堡
+  - 🇫🇷_FR_法国
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -13524,6 +13689,21 @@ proxy-groups:
   - 🇺🇸_US_美国_3_24@22
   - 🇺🇸_US_美国_4_24@26
   - 🇺🇸_US_美国_5_24@28
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇬🇧_GB_英国_1
+  - 🇦🇫_AF_阿富汗
+  - 🇺🇸_US_美国_4
+  - 🇬🇧_GB_英国_2
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🇱🇺_LU_卢森堡
+  - 🇫🇷_FR_法国
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
