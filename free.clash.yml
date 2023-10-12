@@ -13203,6 +13203,7 @@ rules:
 - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
 - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
 - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+- PROCESS-NAME,natmap,DIRECT
 - DOMAIN-SUFFIX,jtvnw.net,🔰 节点选择
 - DOMAIN-SUFFIX,ttvnw.net,🔰 节点选择
 - DOMAIN-SUFFIX,twitch.tv,🔰 节点选择
