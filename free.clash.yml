@@ -5575,19 +5575,6 @@ proxies:
     headers:
       Host: er3.889611.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 立陶宛 001
-  network: ws
-  port: 80
-  server: 94.131.14.177
-  tls: false
-  type: vmess
-  uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781
-  ws-opts:
-    headers:
-      Host: lt2-vmess.sshmax.xyz
-    path: /vmess
 - alterId: 1
   cipher: auto
   name: 加拿大 311
@@ -6730,33 +6717,6 @@ proxies:
     path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 美国 078
-  network: http
-  port: 56333
-  server: 3.129.250.63
-  tls: false
-  type: vmess
-  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
-- alterId: 0
-  cipher: auto
-  name: 新加坡 002
-  network: ws
-  port: 20552
-  server: 146.190.97.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 48cbd108-fd2a-4fb7-b46d-9982b9de9c6e
-  ws-opts:
-    headers:
-      Host: m.linkedin.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 370
   network: ws
   port: 80
@@ -6919,7 +6879,7 @@ proxies:
     path: /index
 - alterId: 2
   cipher: auto
-  name: 新加坡 003
+  name: 新加坡 002
   network: ws
   port: 14502
   server: sg1a.budog.xyz
@@ -6935,7 +6895,7 @@ proxies:
     path: /index
 - alterId: 2
   cipher: auto
-  name: 新加坡 004
+  name: 新加坡 003
   network: ws
   port: 31045
   server: sg1b.budog.xyz
@@ -6951,7 +6911,7 @@ proxies:
     path: /index
 - alterId: 2
   cipher: auto
-  name: 新加坡 005
+  name: 新加坡 004
   network: ws
   port: 14215
   server: sg2a.budog.xyz
@@ -6967,7 +6927,7 @@ proxies:
     path: /index
 - alterId: 2
   cipher: auto
-  name: 新加坡 006
+  name: 新加坡 005
   network: ws
   port: 14740
   server: sg2b.budog.xyz
@@ -6983,7 +6943,7 @@ proxies:
     path: /index
 - alterId: 2
   cipher: auto
-  name: 新加坡 007
+  name: 新加坡 006
   network: ws
   port: 12410
   server: sg2c.budog.xyz
@@ -6999,7 +6959,7 @@ proxies:
     path: /index
 - alterId: 2
   cipher: auto
-  name: 新加坡 008
+  name: 新加坡 007
   network: ws
   port: 10447
   server: sg2d.budog.xyz
@@ -7063,7 +7023,7 @@ proxies:
     path: /index
 - alterId: 2
   cipher: auto
-  name: 美国 080
+  name: 美国 079
   network: ws
   port: 13945
   server: us2a.budog.xyz
@@ -7079,7 +7039,7 @@ proxies:
     path: /index
 - alterId: 2
   cipher: auto
-  name: 美国 081
+  name: 美国 080
   network: ws
   port: 14017
   server: us2b.budog.xyz
@@ -7143,7 +7103,7 @@ proxies:
     path: /index
 - alterId: 2
   cipher: auto
-  name: 美国 082
+  name: 美国 081
   network: ws
   port: 1581
   server: hk2a.budog.xyz
@@ -7159,7 +7119,7 @@ proxies:
     path: /index
 - alterId: 2
   cipher: auto
-  name: 美国 083
+  name: 美国 082
   network: ws
   port: 14118
   server: hk2b.budog.xyz
@@ -7188,16 +7148,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 越南 008
-  network: tcp
-  port: 20210
-  server: 103.178.235.105
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0bdcd202-a39e-426a-9d1d-0ce454b9dd35
-- alterId: 0
-  cipher: auto
-  name: 美国 084
+  name: 美国 083
   network: ws
   port: 8080
   server: 164.92.80.223
@@ -7208,24 +7159,6 @@ proxies:
     headers:
       Host: uszhang.sanfen002.top
     path: /grdhhgrdhhhhhhj?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 美国 085
-  network: tcp
-  port: 38555
-  server: 45.199.138.159
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a
-- alterId: 64
-  cipher: auto
-  name: 美国 086
-  network: tcp
-  port: 55107
-  server: 45.199.138.220
-  skip-cert-verify: true
-  type: vmess
-  uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9
 - alterId: 0
   cipher: auto
   name: 伊朗 004
@@ -7391,7 +7324,7 @@ proxies:
     path: /snsk
 - alterId: 0
   cipher: auto
-  name: 新加坡 009
+  name: 新加坡 008
   network: ws
   port: 50007
   server: 146.190.109.208
@@ -7799,7 +7732,7 @@ proxies:
   uuid: fe823d74-fa7e-4dc1-b16b-480bc201a153
 - alterId: 0
   cipher: auto
-  name: 美国 087
+  name: 美国 084
   network: grpc
   port: 15147
   server: mg_grpc.yunjisuan.cf
@@ -7822,7 +7755,7 @@ proxies:
     path: /673ba378-840f-4928-81f2-203148d07350
 - alterId: 64
   cipher: auto
-  name: 美国 088
+  name: 美国 085
   network: ws
   port: 443
   server: 156.225.67.126
@@ -7836,7 +7769,7 @@ proxies:
     path: /path/130632252334
 - alterId: 0
   cipher: auto
-  name: 美国 089
+  name: 美国 086
   network: ws
   port: 443
   server: 45.61.185.139
@@ -7849,7 +7782,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 090
+  name: 美国 087
   network: ws
   port: 21070
   server: 38.59.241.137
@@ -7862,7 +7795,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 091
+  name: 美国 088
   network: ws
   port: 80
   server: 38.59.224.200
@@ -7875,7 +7808,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 092
+  name: 美国 089
   network: ws
   port: 80
   server: 38.95.233.5
@@ -7975,7 +7908,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 新加坡 010
+  name: 新加坡 009
   network: ws
   port: 58686
   server: 143.42.66.9
@@ -8124,7 +8057,7 @@ proxies:
   uuid: 01fd0618-8ac2-48e4-b008-3b2bc2653b60
 - alterId: 0
   cipher: auto
-  name: 新加坡 011
+  name: 新加坡 010
   network: tcp
   port: 20055
   server: sg7.ip8.shop
@@ -8173,7 +8106,7 @@ proxies:
     path: /OWTu4RMkF9V12oO5NLlQk
 - alterId: 0
   cipher: auto
-  name: 美国 093
+  name: 美国 090
   network: ws
   port: 443
   server: orchid-lucky-chicory.glitch.me
@@ -8187,7 +8120,7 @@ proxies:
     path: /1d5fb496-19fb-48fb-9880-a147326dee62-vmess
 - alterId: 0
   cipher: auto
-  name: 美国 094
+  name: 美国 091
   network: ws
   port: 443
   server: curious-splashy-green.glitch.me
@@ -8201,7 +8134,7 @@ proxies:
     path: /dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess
 - alterId: 0
   cipher: auto
-  name: 美国 095
+  name: 美国 092
   network: ws
   port: 443
   server: slime-rhinestone-spy.glitch.me
@@ -8228,7 +8161,7 @@ proxies:
     path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b
 - alterId: 0
   cipher: auto
-  name: 立陶宛 002
+  name: 立陶宛 001
   network: ws
   port: 443
   server: 20.openiisee.monster
@@ -8283,7 +8216,7 @@ proxies:
     path: /every50
 - alterId: 0
   cipher: auto
-  name: 美国 096
+  name: 美国 093
   network: ws
   port: 443
   server: 27.openiisee.monster
@@ -8324,7 +8257,7 @@ proxies:
     path: /every84
 - alterId: 0
   cipher: auto
-  name: 美国 097
+  name: 美国 094
   network: ws
   port: 443
   server: 17.openiisee.monster
@@ -8338,7 +8271,7 @@ proxies:
     path: /every48
 - alterId: 0
   cipher: auto
-  name: 美国 098
+  name: 美国 095
   network: ws
   port: 443
   server: 14.openiisee.monster
@@ -8406,7 +8339,7 @@ proxies:
     path: /every60
 - alterId: 0
   cipher: auto
-  name: 美国 099
+  name: 美国 096
   network: ws
   port: 443
   server: 6.openiisee.monster
@@ -8420,7 +8353,7 @@ proxies:
     path: /every59
 - alterId: 0
   cipher: auto
-  name: 美国 100
+  name: 美国 097
   network: ws
   port: 443
   server: 36.openiisee.monster
@@ -8474,7 +8407,7 @@ proxies:
     path: /yyjc-hk-ipv6-1
 - alterId: 0
   cipher: auto
-  name: 美国 101
+  name: 美国 098
   network: ws
   port: 443
   server: 24.openiisee.monster
@@ -8512,6 +8445,77 @@ proxies:
     headers:
       Host: ssrsub-cf-v2.trojan.tel
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 加拿大 429
+  network: tcp
+  port: 8443
+  server: 193.203.203.88
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 012a4853-55fe-4eef-b8c2-e87f8fd178e5
+  ws-headers:
+    Host: 193.203.203.88
+- alterId: 0
+  cipher: auto
+  name: 乌克兰 001
+  network: tcp
+  port: 8443
+  server: 193.238.153.14
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
+  ws-headers:
+    Host: 193.238.153.14
+- alterId: 0
+  cipher: auto
+  name: 土耳其 002
+  network: tcp
+  port: 8443
+  server: 193.46.56.210
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 56354ec0-cadc-49e1-8144-8a1b20571b4f
+  ws-headers:
+    Host: 193.46.56.210
+- alterId: 0
+  cipher: auto
+  name: 希腊 002
+  network: ws
+  port: 2082
+  server: 94.131.8.32
+  skip-cert-verify: true
+  type: vmess
+  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 德国 012
+  network: tcp
+  port: 8442
+  server: 172.105.90.47
+  skip-cert-verify: true
+  type: vmess
+  uuid: 06aafde9-c032-40c0-8ffd-4acb72252f36
+- alterId: 0
+  cipher: auto
+  name: 斯洛伐克 004
+  network: ws
+  port: 2086
+  server: 5.252.23.173
+  skip-cert-verify: true
+  type: vmess
+  uuid: d70a32b5-5d4b-4ebe-adf6-8f34c73871d2
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /vmess
 - cipher: aes-256-cfb
   name: 🇺🇸_US_美国_2
   password: amazonskr05
@@ -9042,7 +9046,6 @@ proxy-groups:
   - 加拿大 309
   - 美国 057
   - 加拿大 310
-  - 立陶宛 001
   - 加拿大 311
   - 加拿大 312
   - 加拿大 313
@@ -9123,8 +9126,6 @@ proxy-groups:
   - 加拿大 368
   - 加拿大 369
   - 伊朗 003
-  - 美国 078
-  - 新加坡 002
   - 加拿大 370
   - 塞浦路斯 002
   - 加拿大 371
@@ -9136,27 +9137,24 @@ proxy-groups:
   - 俄罗斯 005
   - 德国 005
   - 德国 006
+  - 新加坡 002
   - 新加坡 003
   - 新加坡 004
   - 新加坡 005
   - 新加坡 006
   - 新加坡 007
-  - 新加坡 008
   - 日本 002
   - 日本 003
   - 日本 004
+  - 美国 079
   - 美国 080
-  - 美国 081
   - 加拿大 376
   - 加拿大 377
   - 越南 007
+  - 美国 081
   - 美国 082
-  - 美国 083
   - 英国 006
-  - 越南 008
-  - 美国 084
-  - 美国 085
-  - 美国 086
+  - 美国 083
   - 伊朗 004
   - 加拿大 378
   - 加拿大 379
@@ -9170,7 +9168,7 @@ proxy-groups:
   - 荷兰 005
   - 德国 007
   - 加拿大 387
-  - 新加坡 009
+  - 新加坡 008
   - 英国 007
   - 加拿大 388
   - 西班牙 001
@@ -9204,13 +9202,13 @@ proxy-groups:
   - 加拿大 416
   - 加拿大 417
   - 俄罗斯 006
-  - 美国 087
+  - 美国 084
   - 加拿大 418
+  - 美国 085
+  - 美国 086
+  - 美国 087
   - 美国 088
   - 美国 089
-  - 美国 090
-  - 美国 091
-  - 美国 092
   - 伊朗 005
   - 波兰 001
   - 加拿大 419
@@ -9218,7 +9216,7 @@ proxy-groups:
   - 加拿大 421
   - 斯洛伐克 001
   - 爱尔兰 001
-  - 新加坡 010
+  - 新加坡 009
   - 爱尔兰 002
   - 伊朗 006
   - 捷克 003
@@ -9230,35 +9228,41 @@ proxy-groups:
   - 爱尔兰 003
   - 加拿大 422
   - 俄罗斯 007
-  - 新加坡 011
+  - 新加坡 010
   - 斯洛伐克 003
   - 捷克 006
   - 德国 008
-  - 美国 093
-  - 美国 094
-  - 美国 095
+  - 美国 090
+  - 美国 091
+  - 美国 092
   - 加拿大 423
-  - 立陶宛 002
+  - 立陶宛 001
   - 德国 009
   - 捷克 007
   - 捷克 008
-  - 美国 096
+  - 美国 093
   - 加拿大 424
   - 德国 010
-  - 美国 097
-  - 美国 098
+  - 美国 094
+  - 美国 095
   - 加拿大 425
   - 加拿大 426
   - 德国 011
   - 法国 003
-  - 美国 099
-  - 美国 100
+  - 美国 096
+  - 美国 097
   - 捷克 009
   - 南非 001
   - 加拿大 427
-  - 美国 101
+  - 美国 098
   - 波兰 002
   - 加拿大 428
+  - 加拿大 429
+  - 乌克兰 001
+  - 土耳其 002
+  - 希腊 002
+  - 德国 012
+  - 斯洛伐克 004
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
   - 🇫🇷_FR_法国_1
@@ -9679,7 +9683,6 @@ proxy-groups:
   - 加拿大 309
   - 美国 057
   - 加拿大 310
-  - 立陶宛 001
   - 加拿大 311
   - 加拿大 312
   - 加拿大 313
@@ -9760,8 +9763,6 @@ proxy-groups:
   - 加拿大 368
   - 加拿大 369
   - 伊朗 003
-  - 美国 078
-  - 新加坡 002
   - 加拿大 370
   - 塞浦路斯 002
   - 加拿大 371
@@ -9773,27 +9774,24 @@ proxy-groups:
   - 俄罗斯 005
   - 德国 005
   - 德国 006
+  - 新加坡 002
   - 新加坡 003
   - 新加坡 004
   - 新加坡 005
   - 新加坡 006
   - 新加坡 007
-  - 新加坡 008
   - 日本 002
   - 日本 003
   - 日本 004
+  - 美国 079
   - 美国 080
-  - 美国 081
   - 加拿大 376
   - 加拿大 377
   - 越南 007
+  - 美国 081
   - 美国 082
-  - 美国 083
   - 英国 006
-  - 越南 008
-  - 美国 084
-  - 美国 085
-  - 美国 086
+  - 美国 083
   - 伊朗 004
   - 加拿大 378
   - 加拿大 379
@@ -9807,7 +9805,7 @@ proxy-groups:
   - 荷兰 005
   - 德国 007
   - 加拿大 387
-  - 新加坡 009
+  - 新加坡 008
   - 英国 007
   - 加拿大 388
   - 西班牙 001
@@ -9841,13 +9839,13 @@ proxy-groups:
   - 加拿大 416
   - 加拿大 417
   - 俄罗斯 006
-  - 美国 087
+  - 美国 084
   - 加拿大 418
+  - 美国 085
+  - 美国 086
+  - 美国 087
   - 美国 088
   - 美国 089
-  - 美国 090
-  - 美国 091
-  - 美国 092
   - 伊朗 005
   - 波兰 001
   - 加拿大 419
@@ -9855,7 +9853,7 @@ proxy-groups:
   - 加拿大 421
   - 斯洛伐克 001
   - 爱尔兰 001
-  - 新加坡 010
+  - 新加坡 009
   - 爱尔兰 002
   - 伊朗 006
   - 捷克 003
@@ -9867,35 +9865,41 @@ proxy-groups:
   - 爱尔兰 003
   - 加拿大 422
   - 俄罗斯 007
-  - 新加坡 011
+  - 新加坡 010
   - 斯洛伐克 003
   - 捷克 006
   - 德国 008
-  - 美国 093
-  - 美国 094
-  - 美国 095
+  - 美国 090
+  - 美国 091
+  - 美国 092
   - 加拿大 423
-  - 立陶宛 002
+  - 立陶宛 001
   - 德国 009
   - 捷克 007
   - 捷克 008
-  - 美国 096
+  - 美国 093
   - 加拿大 424
   - 德国 010
-  - 美国 097
-  - 美国 098
+  - 美国 094
+  - 美国 095
   - 加拿大 425
   - 加拿大 426
   - 德国 011
   - 法国 003
-  - 美国 099
-  - 美国 100
+  - 美国 096
+  - 美国 097
   - 捷克 009
   - 南非 001
   - 加拿大 427
-  - 美国 101
+  - 美国 098
   - 波兰 002
   - 加拿大 428
+  - 加拿大 429
+  - 乌克兰 001
+  - 土耳其 002
+  - 希腊 002
+  - 德国 012
+  - 斯洛伐克 004
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
   - 🇫🇷_FR_法国_1
