@@ -5085,20 +5085,6 @@ proxies:
     path: /path/1704188270531
 - alterId: 0
   cipher: auto
-  name: 新加坡 002
-  network: ws
-  port: 20552
-  server: 146.190.97.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 48cbd108-fd2a-4fb7-b46d-9982b9de9c6e
-  ws-opts:
-    headers:
-      Host: m.linkedin.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大 230
   network: ws
   port: 8080
@@ -5111,15 +5097,6 @@ proxies:
     headers:
       Host: moon.chanell.mci.v-x4ssd.space
     path: /
-- alterId: 0
-  cipher: auto
-  name: 伊朗 002
-  network: tcp
-  port: 20515
-  server: 195.211.44.107
-  skip-cert-verify: true
-  type: vmess
-  uuid: a56b1fb2-6a48-4d08-80e7-7cc1b2df019e
 - alterId: 0
   cipher: auto
   name: 德国 005
@@ -5829,7 +5806,7 @@ proxies:
   uuid: f9757cf3-0024-49ae-e593-6ff4b59a80d7
 - alterId: 0
   cipher: auto
-  name: 新加坡 003
+  name: 新加坡 002
   network: ws
   port: 80
   server: sing3.shopvpn4g.vn
@@ -5972,7 +5949,7 @@ proxies:
     path: d70f40256957?ed=2048
 - alterId: 0
   cipher: auto
-  name: 伊朗 003
+  name: 伊朗 002
   network: tcp
   port: 2053
   server: 78.109.198.37
@@ -8053,7 +8030,7 @@ proxies:
     path: /eisasqa
 - alterId: 0
   cipher: auto
-  name: 新加坡 004
+  name: 新加坡 003
   network: ws
   port: 80
   server: hcm2.safepn.net
@@ -8093,7 +8070,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 005
+  name: 新加坡 004
   network: ws
   port: 443
   server: sg2.safepn.net
@@ -8107,7 +8084,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 006
+  name: 新加坡 005
   network: ws
   port: 80
   server: sg2.safepn.net
@@ -8666,7 +8643,7 @@ proxies:
     path: /fa
 - alterId: 0
   cipher: auto
-  name: 新加坡 007
+  name: 新加坡 006
   network: ws
   port: 80
   server: sg02.xpoti.online
@@ -8701,7 +8678,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 伊朗 004
+  name: 伊朗 003
   network: tcp
   port: 20512
   server: 81.12.27.4
@@ -9026,7 +9003,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 008
+  name: 新加坡 007
   network: ws
   port: 80
   server: sg01.xpoti.online
@@ -9159,7 +9136,7 @@ proxies:
   uuid: aed77924-0942-4568-9485-a53829b314d9
 - alterId: 0
   cipher: auto
-  name: 新加坡 009
+  name: 新加坡 008
   network: tcp
   port: 50001
   server: agroup.node4.v.nodelist-gfwairport2.top
@@ -9177,7 +9154,7 @@ proxies:
   uuid: aed77924-0942-4568-9485-a53829b314d9
 - alterId: 0
   cipher: auto
-  name: 伊朗 005
+  name: 伊朗 004
   network: tcp
   port: 25477
   server: 79.143.84.117
@@ -9397,7 +9374,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 伊朗 006
+  name: 伊朗 005
   network: tcp
   port: 58915
   server: 185.158.175.20
@@ -10181,7 +10158,7 @@ proxies:
     path: /vm-tls0?ed=2048
 - alterId: 0
   cipher: auto
-  name: 新加坡 010
+  name: 新加坡 009
   network: ws
   port: 51727
   server: 146.190.100.185
@@ -10208,20 +10185,475 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1
+  name: 伊朗 006
+  network: tcp
+  port: 11541
+  server: 79.143.84.117
+  skip-cert-verify: true
+  type: vmess
+  uuid: 46465bbe-628a-4988-ae3c-0c164237a039
+- alterId: 0
+  cipher: auto
+  name: 加拿大 401
   network: ws
   port: 8880
-  server: a3.bcbot.in
+  server: free2.1alphaomega.org
   skip-cert-verify: true
-  tls: false
   type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  uuid: 2f1435e0-a3e6-40c7-bc4f-05f5befeb789
   ws-opts:
     headers:
-      host: a3.bcbot.in
+      Host: free.1alphaomega.org
     path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡 010
+  network: ws
+  port: 58919
+  server: 45.77.240.25
+  skip-cert-verify: true
+  type: vmess
+  uuid: ab99c00b-70fa-40e9-b2d3-6b669b53474b
+  ws-opts:
+    headers:
+      Host: publish.twitter.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 澳大利亚 004
+  network: tcp
+  port: 8080
+  server: 91.108.240.202
+  skip-cert-verify: true
+  type: vmess
+  uuid: cd3a05bd-4b70-45e5-aaf8-f1077c4fc4d3
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 加拿大 402
+  network: ws
+  port: 80
+  server: 104.26.14.85
+  skip-cert-verify: true
+  type: vmess
+  uuid: 562ae412-d7b5-4f1e-dd0d-82e073193b21
+  ws-opts:
+    headers:
+      Host: cdn.pokerad.fun
+    path: /fa
+- alterId: 0
+  cipher: auto
+  name: 加拿大 403
+  network: ws
+  port: 8080
+  server: 104.18.188.20
+  skip-cert-verify: true
+  type: vmess
+  uuid: cef51002-47b0-4e48-9d91-850e15ff95e8
+  ws-opts:
+    headers:
+      Host: kryx.651568.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 伊朗 007
+  network: tcp
+  port: 21975
+  server: 81.12.27.7
+  skip-cert-verify: true
+  type: vmess
+  uuid: b3c49b53-2d5d-4d13-d195-76d48aeccd11
+- alterId: 0
+  cipher: auto
+  name: 加拿大 404
+  network: ws
+  port: 443
+  server: 172.66.44.197
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: fa4cb529-3ac9-4268-bb04-ed4253813508
+  ws-opts:
+    headers:
+      Host: d.pgypgykmoljklj.xyz
+    path: /mR17oBKzZ7
+- alterId: 0
+  cipher: auto
+  name: 加拿大 405
+  network: ws
+  port: 8880
+  server: 104.23.107.18
+  skip-cert-verify: true
+  type: vmess
+  uuid: da28c85e-e71b-4554-a9fc-162bc94c7cb0
+  ws-opts:
+    headers:
+      Host: root.configforvpn.fun
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 206
+  network: ws
+  port: 80
+  server: krb.kalaa.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: krb.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡 011
+  network: ws
+  port: 80
+  server: sgd.kalaa.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: sgd.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 207
+  network: ws
+  port: 80
+  server: usd.kalaa.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: usd.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡 012
+  network: ws
+  port: 80
+  server: sga.kalaa.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: sga.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 208
+  network: ws
+  port: 80
+  server: hkc.kalaa.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: hkc.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 新加坡 013
+  network: ws
+  port: 80
+  server: sgb.kalaa.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: sgb.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 209
+  network: ws
+  port: 80
+  server: hkb.kalaa.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: hkb.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 210
+  network: ws
+  port: 80
+  server: usa.kalaa.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: usa.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 211
+  network: ws
+  port: 80
+  server: sgc.kalaa.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: sgc.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 212
+  network: ws
+  port: 80
+  server: usc.kalaa.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: usc.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 406
+  network: ws
+  port: 80
+  server: 162.159.135.221
+  skip-cert-verify: true
+  type: vmess
+  uuid: fa828efe-ff0a-4afd-a4cb-245cf65432ee
+  ws-opts:
+    headers:
+      Host: us.baipiao.fixddns.store
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国 213
+  network: ws
+  port: 80
+  server: usb.kalaa.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: usb.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 日本 004
+  network: ws
+  port: 80
+  server: jpa.kalaa.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: jpa.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 伊朗 008
+  network: tcp
+  port: 44844
+  server: test.techno2.pw
+  skip-cert-verify: true
+  type: vmess
+  uuid: 74bcf2bb-6957-441a-a923-218996730743
+- alterId: 0
+  cipher: auto
+  name: 加拿大 407
+  network: ws
+  port: 80
+  server: cdn20.nwaf98.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4046171f-2176-4f56-8008-adc55676931a
+  ws-opts:
+    headers:
+      Host: cdn20.nwaf98.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 214
+  network: ws
+  port: 443
+  server: vus4.0bad.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: vus4.0bad.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: 加拿大 408
+  network: ws
+  port: 80
+  server: 172.67.146.69
+  skip-cert-verify: true
+  type: vmess
+  uuid: 8b745f74-c322-48c0-b27c-cb6a1d871e86
+  ws-opts:
+    headers:
+      Host: periodically-microwave-firms-abc.trycloudflare.com
+    path: ae8e857abf1d?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国 215
+  network: ws
+  port: 80
+  server: 209.141.52.163
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3de6b0ba-339a-475d-868d-1f0c72392aa1
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 409
+  network: ws
+  port: 8880
+  server: 104.17.175.23
+  skip-cert-verify: true
+  type: vmess
+  uuid: a7d5e71f-3905-42be-8115-bbc1844eb833
+  ws-opts:
+    headers:
+      Host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
+- alterId: 0
+  cipher: auto
+  name: 加拿大 410
+  network: ws
+  port: 443
+  server: 172.67.73.163
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 562ae412-d7b5-4f1e-dd0d-82e073193b21
+  ws-opts:
+    headers:
+      Host: cdn.pokerad.fun
+    path: /fa
+- alterId: 0
+  cipher: auto
+  name: 德国 019
+  network: tcp
+  port: 34015
+  server: 64.226.121.53
+  skip-cert-verify: true
+  type: vmess
+  uuid: be3cecbb-cfc5-49d5-bdf1-784d1cc119ab
+- alterId: 0
+  cipher: auto
+  name: 新加坡 014
+  network: ws
+  port: 80
+  server: 139.99.45.193
+  skip-cert-verify: true
+  type: vmess
+  uuid: a0cfd598-f09f-440b-9204-77d6ae923dc5
+  ws-opts:
+    headers:
+      Host: 139.99.45.193
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 伊朗 009
+  network: ws
+  port: 80
+  server: 185.143.233.141
+  skip-cert-verify: true
+  type: vmess
+  uuid: 205febb3-c669-4012-abc5-0e05cf516252
+  ws-opts:
+    headers:
+      Host: 241.zirogame-54.site
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 伊朗 010
+  network: ws
+  port: 80
+  server: 185.143.233.140
+  skip-cert-verify: true
+  type: vmess
+  uuid: 205febb3-c669-4012-abc5-0e05cf516252
+  ws-opts:
+    headers:
+      Host: 241.zirogame-54.site
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 美国 216
+  network: ws
+  port: 443
+  server: vjp3.0bad.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: vjp3.0bad.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: 美国 217
+  network: ws
+  port: 443
+  server: 7.openiisee.monster
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 04602f60-746d-3f43-8beb-a739e9c2902c
+  ws-opts:
+    headers:
+      Host: supermanapp.top
+    path: /jfsds2u4ud22d2209
+- alterId: 64
+  cipher: auto
+  name: 🇨🇦_CA_加拿大
+  network: ws
+  port: 443
+  server: 142.171.237.214
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.23168499.xyz
+    path: /path/221312281009
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 443
+  server: tgju.org
+  servername: pokerad.fun
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 562ae412-d7b5-4f1e-dd0d-82e073193b21
+  ws-opts:
+    headers:
+      host: cdn.pokerad.fun
+    path: /fa
 - cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_2
+  name: 🇺🇸_US_美国_1
   password: shadowsocks
   port: 443
   server: 212.102.47.198
@@ -10234,205 +10666,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_3
-  network: ws
-  port: 8880
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
-  ws-opts:
-    headers:
-      host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4
-  network: ws
-  port: 8880
-  server: www.visa.com.tw
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  ws-opts:
-    headers:
-      host: mgthree_cdn.yunjisuan.cf
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇰🇿_KZ_哈萨克斯坦
-  network: tcp
-  port: 8443
-  server: kz-v2ray.ipracevpn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 48b10b02-2c60-4323-bc65-a11b15144745
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5
-  network: ws
-  port: 8880
-  server: 104.21.32.215
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  ws-opts:
-    headers:
-      host: a3.bcbot.in
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇭_CH_瑞士
-  network: tcp
-  port: 47182
-  server: 94.131.99.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_6
+  name: 🇺🇸_US_美国_2
   network: ws
   port: 80
-  server: 104.18.15.149
+  server: glaSco.fx-trAder.shop
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
   ws-opts:
     headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  network: ws
-  port: 80
-  server: 162.159.200.4
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_7
-  network: ws
-  port: 80
-  server: 162.159.200.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_8
-  network: ws
-  port: 80
-  server: 104.18.15.148
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_9
-  network: ws
-  port: 80
-  server: 104.18.15.150
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  network: ws
-  port: 80
-  server: 162.159.200.3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_10
-  network: ws
-  port: 80
-  server: 104.18.15.147
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦
-  network: ws
-  port: 80
-  server: 45.144.2.113
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: www.apple.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_11
-  network: ws
-  port: 80
-  server: 162.159.200.7
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: er3.visaapp.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇺🇦_UA_乌克兰
-  network: ws
-  port: 80
-  server: 104.17.2.183
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  ws-opts:
-    headers:
-      host: v3ra3do.wakeuptimerap.shop
+      host: vvv2vayo2.everythingisreve.shop
     path: /
 - alterId: 0
   cipher: auto
@@ -10446,47 +10690,31 @@ proxies:
   uuid: 9b788fa7-9e35-4ed5-e0e9-7d788b26ec07
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_12
-  network: ws
-  port: 80
-  server: 94.131.10.135
+  name: 🇰🇿_KZ_哈萨克斯坦
+  network: tcp
+  port: 8443
+  server: kz-v2ray.ipracevpn.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
-  ws-opts:
-    path: /vmess
+  uuid: 48b10b02-2c60-4323-bc65-a11b15144745
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_13
+  name: 🇮🇶_IQ_伊拉克->🇹🇷_TR_土耳其
   network: ws
-  port: 80
-  server: 172.67.217.144
+  port: 443
+  server: 130.193.166.2
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+  uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5
   ws-opts:
     headers:
-      host: lv1.xv2ray.net
-    path: /
+      host: soft8989.redirectme.net
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 🇸🇪_SE_瑞典->🇳🇱_NL_荷兰
-  network: ws
-  port: 8880
-  server: 185.146.173.27
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8ec29f7f-edee-4065-bec5-b31d10c2d7e4
-  ws-opts:
-    headers:
-      host: telegram.shadowbrowse.online
-    path: /main
-- alterId: 0
-  cipher: auto
-  name: 🇱🇾_LY_利比亚->🇹🇷_TR_土耳其
+  name: 🇱🇾_LY_利比亚
   network: ws
   port: 80
   server: 197.215.140.234
@@ -10500,18 +10728,14 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_14
-  network: ws
-  port: 80
-  server: 104.18.154.42
+  name: 🇨🇭_CH_瑞士
+  network: tcp
+  port: 47182
+  server: 94.131.99.8
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: us3.889611.com
-    path: /
+  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -10883,9 +11107,7 @@ proxy-groups:
   - 美国 085
   - 美国 086
   - 荷兰 010
-  - 新加坡 002
   - 加拿大 230
-  - 伊朗 002
   - 德国 005
   - 加拿大 231
   - 荷兰 011
@@ -10940,7 +11162,7 @@ proxy-groups:
   - 越南 013
   - 加拿大 266
   - 荷兰 012
-  - 新加坡 003
+  - 新加坡 002
   - 韩国 007
   - 加拿大 267
   - 加拿大 268
@@ -10951,7 +11173,7 @@ proxy-groups:
   - 加拿大 271
   - 美国 090
   - 加拿大 272
-  - 伊朗 003
+  - 伊朗 002
   - 加拿大 273
   - 加拿大 274
   - 加拿大 275
@@ -11103,11 +11325,11 @@ proxy-groups:
   - 比利时 001
   - 加拿大 330
   - 美国 151
-  - 新加坡 004
+  - 新加坡 003
   - 瑞士 002
   - 越南 014
+  - 新加坡 004
   - 新加坡 005
-  - 新加坡 006
   - 越南 015
   - 美国 152
   - 德国 008
@@ -11149,10 +11371,10 @@ proxy-groups:
   - 加拿大 337
   - 加拿大 338
   - 加拿大 339
-  - 新加坡 007
+  - 新加坡 006
   - 德国 014
   - 美国 173
-  - 伊朗 004
+  - 伊朗 003
   - 美国 174
   - 美国 175
   - 美国 176
@@ -11177,7 +11399,7 @@ proxy-groups:
   - 加拿大 344
   - 美国 188
   - 美国 189
-  - 新加坡 008
+  - 新加坡 007
   - 美国 190
   - 美国 191
   - 英国 009
@@ -11188,9 +11410,9 @@ proxy-groups:
   - 俄罗斯 005
   - 日本 003
   - 美国 192
-  - 新加坡 009
+  - 新加坡 008
   - 美国 193
-  - 伊朗 005
+  - 伊朗 004
   - 加拿大 349
   - 加拿大 350
   - 加拿大 351
@@ -11207,7 +11429,7 @@ proxy-groups:
   - 加拿大 360
   - 加拿大 361
   - 加拿大 362
-  - 伊朗 006
+  - 伊朗 005
   - 美国 196
   - 美国 197
   - 美国 198
@@ -11262,32 +11484,53 @@ proxy-groups:
   - 加拿大 399
   - 加拿大 400
   - 美国 204
-  - 新加坡 010
+  - 新加坡 009
   - 美国 205
+  - 伊朗 006
+  - 加拿大 401
+  - 新加坡 010
+  - 澳大利亚 004
+  - 加拿大 402
+  - 加拿大 403
+  - 伊朗 007
+  - 加拿大 404
+  - 加拿大 405
+  - 美国 206
+  - 新加坡 011
+  - 美国 207
+  - 新加坡 012
+  - 美国 208
+  - 新加坡 013
+  - 美国 209
+  - 美国 210
+  - 美国 211
+  - 美国 212
+  - 加拿大 406
+  - 美国 213
+  - 日本 004
+  - 伊朗 008
+  - 加拿大 407
+  - 美国 214
+  - 加拿大 408
+  - 美国 215
+  - 加拿大 409
+  - 加拿大 410
+  - 德国 019
+  - 新加坡 014
+  - 伊朗 009
+  - 伊朗 010
+  - 美国 216
+  - 美国 217
+  - 🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
   - 🇪🇸_ES_西班牙
-  - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国_4
-  - 🇰🇿_KZ_哈萨克斯坦
-  - 🇺🇸_US_美国_5
-  - 🇨🇭_CH_瑞士
-  - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_10
-  - 🇷🇺_RU_俄罗斯联邦
-  - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国->🇺🇦_UA_乌克兰
+  - 🇺🇸_US_美国_2
   - 🇮🇷_IR_伊朗
-  - 🇺🇸_US_美国_12
-  - 🇺🇸_US_美国_13
-  - 🇸🇪_SE_瑞典->🇳🇱_NL_荷兰
-  - 🇱🇾_LY_利比亚->🇹🇷_TR_土耳其
-  - 🇺🇸_US_美国_14
+  - 🇰🇿_KZ_哈萨克斯坦
+  - 🇮🇶_IQ_伊拉克->🇹🇷_TR_土耳其
+  - 🇱🇾_LY_利比亚
+  - 🇨🇭_CH_瑞士
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -11658,9 +11901,7 @@ proxy-groups:
   - 美国 085
   - 美国 086
   - 荷兰 010
-  - 新加坡 002
   - 加拿大 230
-  - 伊朗 002
   - 德国 005
   - 加拿大 231
   - 荷兰 011
@@ -11715,7 +11956,7 @@ proxy-groups:
   - 越南 013
   - 加拿大 266
   - 荷兰 012
-  - 新加坡 003
+  - 新加坡 002
   - 韩国 007
   - 加拿大 267
   - 加拿大 268
@@ -11726,7 +11967,7 @@ proxy-groups:
   - 加拿大 271
   - 美国 090
   - 加拿大 272
-  - 伊朗 003
+  - 伊朗 002
   - 加拿大 273
   - 加拿大 274
   - 加拿大 275
@@ -11878,11 +12119,11 @@ proxy-groups:
   - 比利时 001
   - 加拿大 330
   - 美国 151
-  - 新加坡 004
+  - 新加坡 003
   - 瑞士 002
   - 越南 014
+  - 新加坡 004
   - 新加坡 005
-  - 新加坡 006
   - 越南 015
   - 美国 152
   - 德国 008
@@ -11924,10 +12165,10 @@ proxy-groups:
   - 加拿大 337
   - 加拿大 338
   - 加拿大 339
-  - 新加坡 007
+  - 新加坡 006
   - 德国 014
   - 美国 173
-  - 伊朗 004
+  - 伊朗 003
   - 美国 174
   - 美国 175
   - 美国 176
@@ -11952,7 +12193,7 @@ proxy-groups:
   - 加拿大 344
   - 美国 188
   - 美国 189
-  - 新加坡 008
+  - 新加坡 007
   - 美国 190
   - 美国 191
   - 英国 009
@@ -11963,9 +12204,9 @@ proxy-groups:
   - 俄罗斯 005
   - 日本 003
   - 美国 192
-  - 新加坡 009
+  - 新加坡 008
   - 美国 193
-  - 伊朗 005
+  - 伊朗 004
   - 加拿大 349
   - 加拿大 350
   - 加拿大 351
@@ -11982,7 +12223,7 @@ proxy-groups:
   - 加拿大 360
   - 加拿大 361
   - 加拿大 362
-  - 伊朗 006
+  - 伊朗 005
   - 美国 196
   - 美国 197
   - 美国 198
@@ -12037,32 +12278,53 @@ proxy-groups:
   - 加拿大 399
   - 加拿大 400
   - 美国 204
-  - 新加坡 010
+  - 新加坡 009
   - 美国 205
+  - 伊朗 006
+  - 加拿大 401
+  - 新加坡 010
+  - 澳大利亚 004
+  - 加拿大 402
+  - 加拿大 403
+  - 伊朗 007
+  - 加拿大 404
+  - 加拿大 405
+  - 美国 206
+  - 新加坡 011
+  - 美国 207
+  - 新加坡 012
+  - 美国 208
+  - 新加坡 013
+  - 美国 209
+  - 美国 210
+  - 美国 211
+  - 美国 212
+  - 加拿大 406
+  - 美国 213
+  - 日本 004
+  - 伊朗 008
+  - 加拿大 407
+  - 美国 214
+  - 加拿大 408
+  - 美国 215
+  - 加拿大 409
+  - 加拿大 410
+  - 德国 019
+  - 新加坡 014
+  - 伊朗 009
+  - 伊朗 010
+  - 美国 216
+  - 美国 217
+  - 🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
   - 🇪🇸_ES_西班牙
-  - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国_4
-  - 🇰🇿_KZ_哈萨克斯坦
-  - 🇺🇸_US_美国_5
-  - 🇨🇭_CH_瑞士
-  - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_10
-  - 🇷🇺_RU_俄罗斯联邦
-  - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国->🇺🇦_UA_乌克兰
+  - 🇺🇸_US_美国_2
   - 🇮🇷_IR_伊朗
-  - 🇺🇸_US_美国_12
-  - 🇺🇸_US_美国_13
-  - 🇸🇪_SE_瑞典->🇳🇱_NL_荷兰
-  - 🇱🇾_LY_利比亚->🇹🇷_TR_土耳其
-  - 🇺🇸_US_美国_14
+  - 🇰🇿_KZ_哈萨克斯坦
+  - 🇮🇶_IQ_伊拉克->🇹🇷_TR_土耳其
+  - 🇱🇾_LY_利比亚
+  - 🇨🇭_CH_瑞士
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
