@@ -28,19 +28,19 @@ Excel已定义的关键词，以下的所有的配置都可以放在任何sheet�
 
 ## message
 基本的Message结构如下,RarityType参考下方的枚举定义,支持map和list,list同protobuf repeated  
-|#message|Card|-| - |-  |-  |- |  
-|--------|----|----|---|-----------|------------------------|-----------------|  
-|#type|int32|string|bool|RarityType|map#string:string#sep=,|list#string#sep=,|  
-|#var|id|name|hide|raity|sounds|animations|  
-|#desc|唯一标识|名称|隐藏|罕见程度|音效|动画|  
-|-|10001|名称01|false|2|apply:aa.ogg,walk:bb.ogg|run,attack,idle|  
-|-|10002|名称02|false|1|apply:aa.ogg,walk:bb.ogg|run,attack,idle|  
+|#message|Card|-| - |-  |-  |- |
+|-----|----|----|---|-----|-----|-----|
+|#type|int32|string|bool|RarityType|map#string:string#sep=,|list#string#sep=,|
+|#var|id|name|hide|raity|sounds|animations|
+|#desc|唯一标识|名称|隐藏|罕见程度|音效|动画|
+|-|10001|名称01|false|2|apply:aa.ogg,walk:bb.ogg|run,attack,idle|
+|-|10002|名称02|false|1|apply:aa.ogg,walk:bb.ogg|run,attack,idle|
 
 ## enmu
 枚举的变量赋值必须从0开始,受限于protobuf的限制  
-|#enmu|	RarityType|-|-|  
-|---|---|---|--| 		
-|#desc|	罕见程度|||		
+|#enmu|	RarityType|-|-|
+|---|---|---|--|
+|#desc|	罕见程度|||
 |-|	#var	|#desc	|#value|
 |-|	Basic	|基础	|0|
 |-|	Common	|普通	|1|
@@ -51,12 +51,12 @@ Excel已定义的关键词，以下的所有的配置都可以放在任何sheet�
 
 ## config
 `#config`是加在#message上方的表示，后面表格的内容为当前的配置名称  
-|#config|collect|    
-|-------|-------|  
-|#message|Collect|  
-|#type|	list#Card|  
-|#var|	CardList|  
-|#desc|	列表|  
+|#config|collect|
+|-------|-------|
+|#message|Collect|
+|#type|	list#Card|
+|#var|	CardList|
+|#desc|	列表|
 
 ## type
 基本类型同protobuf的基本类型，比如int32、string等，list、map参考上方的message示例。如果是引用其他的类型结构，直接添加对应的类型名称即可， 具体的数据读取对应类型定义下方填写的数据，参考上方的config示例。
