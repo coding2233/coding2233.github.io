@@ -95,8 +95,9 @@ Excel2Config --excel_path=Excel/ --to_json --to_protobuf=all --protoc_cmd="--csh
 ### 导出文件
 
 对应的protobuf的binary、proto文件、c#脚本，以及json配置文件  
-|![](/assets/images/excel_04.png)|![](/assets/images/excel_05.png)|
-|:--:|:--:|
+|![](/assets/images/excel_04.png)|![](/assets/images/excel_05.png)|![](/assets/images/excel_06.png)|
+|:--:|:--:|:--:|
+|导出文件展示|json|proto|
 
 
 # 夹带私货
