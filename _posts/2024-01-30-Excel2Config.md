@@ -104,7 +104,7 @@ Excel2Config --excel_path=Excel/ --to_json --to_protobuf=all --protoc_cmd="--csh
 
 # 夹带私货
 * 虽然支持json导出，但是还是推荐导出protobuf作为配置使用，json只是作为可视化参考  
-* 有json可以利用其他工具转成,yaml等配置文件  
+* 有json可以利用其他工具转成yaml等配置文件  
 * 这里利用`shell`环境去调用protoc的命令，即使在windows下也需要设置shell环境,开发都安装了`git-bash`环境，所以这里的shell环境也不是啥大问题。windows下的路径确实有点恶心。
 
 # ToDo
