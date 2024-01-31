@@ -28,7 +28,8 @@ Excel已定义的关键词，以下的所有的配置都可以放在任何sheet�
 
 ## message
 基本的Message结构如下,RarityType参考下方的枚举定义,支持map和list,list同protobuf repeated  
-|#message|Card|-| - |-  |-  |- |
+
+|#message|Card|-|-|-|-|-|
 |-----|----|----|---|-----|-----|-----|
 |#type|int32|string|bool|RarityType|map#string:string#sep=,|list#string#sep=,|
 |#var|id|name|hide|raity|sounds|animations|
@@ -38,10 +39,11 @@ Excel已定义的关键词，以下的所有的配置都可以放在任何sheet�
 
 ## enmu
 枚举的变量赋值必须从0开始,受限于protobuf的限制  
-|#enmu|	RarityType|-|-|
+
+|#enmu|RarityType|-|-|
 |---|---|---|--|
-|#desc|	罕见程度|||
-|-|	#var	|#desc	|#value|
+|#desc|罕见程度|-|-|
+|-|	#var|#desc	|#value|
 |-|	Basic	|基础	|0|
 |-|	Common	|普通	|1|
 |-|	Rare 	|稀有	|2|
@@ -51,6 +53,7 @@ Excel已定义的关键词，以下的所有的配置都可以放在任何sheet�
 
 ## config
 `#config`是加在#message上方的表示，后面表格的内容为当前的配置名称  
+
 |#config|collect|
 |-------|-------|
 |#message|Collect|
@@ -86,17 +89,14 @@ Excel2Config --excel_path=Excel/ --to_json --to_protobuf=all --protoc_cmd="--csh
 
 ### Excel配置
 
-![](/assets/images/excel_01.png)  
-
-![](/assets/images/excel_02.png)  
-
-![](/assets/images/excel_03.png)  
+|![](/assets/images/excel_01.png)|![](/assets/images/excel_02.png)|![](/assets/images/excel_03.png)|
+|:--:|:--:|:--:|
 
 ### 导出文件
 
 对应的protobuf的binary、proto文件、c#脚本，以及json配置文件  
-![](/assets/images/excel_04.png)  
-![](/assets/images/excel_05.png)  
+|![](/assets/images/excel_04.png)|![](/assets/images/excel_05.png)|
+|:--:|:--:|
 
 
 # 夹带私货
