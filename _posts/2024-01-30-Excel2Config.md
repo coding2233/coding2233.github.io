@@ -87,7 +87,7 @@ Excel已定义的关键词，以下的所有的配置都可以放在任何sheet�
 Excel2Config --excel_path=Excel/ --to_json --to_protobuf=all --protoc_cmd="--csharp_out=Excel/" --shell="C:\\Program Files\\Git\\bin\\bash.exe" --protoc="D:\\protoc.exe"
 ```
 
-### Excel配置
+### Excel配置  
 
 |![](/assets/images/excel_01.png)|![](/assets/images/excel_02.png)|![](/assets/images/excel_03.png)|
 |:--:|:--:|:--:|
@@ -95,6 +95,7 @@ Excel2Config --excel_path=Excel/ --to_json --to_protobuf=all --protoc_cmd="--csh
 ### 导出文件
 
 对应的protobuf的binary、proto文件、c#脚本，以及json配置文件  
+
 |![](/assets/images/excel_04.png)|![](/assets/images/excel_05.png)|![](/assets/images/excel_06.png)|
 |:--:|:--:|:--:|
 |导出文件展示|json|proto|
