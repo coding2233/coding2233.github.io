@@ -1504,31 +1504,174 @@ proxies:
     path: /huhublog
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1
-  network: http
-  port: 12079
-  server: 45.32.192.94
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e63f477b-59d7-485e-9385-c38888b60cbf
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2
+  name: 加拿大 052
   network: ws
-  port: 8880
-  server: server13.beheshtbaneh.com
+  port: 443
+  server: 172.67.68.246
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 0c0db4fe-6133-4837-9f57-0ce75fb59692
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      host: server13.beheshtbaneh.com
+      Host: vip2323.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 053
+  network: ws
+  port: 443
+  server: 104.26.8.202
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vip2323.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 美国 025
+  network: ws
+  port: 443
+  server: 162.159.62.69
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9c939dd1-fcf3-4b67-bf4b-0bede2ce76b4
+  ws-opts:
+    headers:
+      Host: sn1.publcenem.shop
+    path: /elhm
+- alterId: 0
+  cipher: auto
+  name: 加拿大 054
+  network: ws
+  port: 443
+  server: 104.16.6.65
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9c939dd1-fcf3-4b67-bf4b-0bede2ce76b4
+  ws-opts:
+    headers:
+      Host: sn1.publcenem.shop
+    path: /elhm
+- alterId: 0
+  cipher: auto
+  name: 加拿大 055
+  network: ws
+  port: 443
+  server: 104.26.9.202
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vip2323.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 002
+  network: ws
+  port: 443
+  server: 185.148.105.52
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9c939dd1-fcf3-4b67-bf4b-0bede2ce76b4
+  ws-opts:
+    headers:
+      Host: sn1.publcenem.shop
+    path: /elhm
+- alterId: 0
+  cipher: auto
+  name: 美国 026
+  network: ws
+  port: 80
+  server: 94.131.122.105
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3b871117-3a4e-4df2-a8af-08ecc7db6887
+  ws-opts:
+    headers:
+      Host: uk1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  network: ws
+  port: 80
+  server: for-irancell.outline-vpn.cloud
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_3
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  network: ws
+  port: 80
+  server: 104.20.231.30
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_3
+  network: ws
+  port: 80
+  server: 104.22.51.162
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  network: ws
+  port: 80
+  server: 104.24.208.37
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_1
+  network: ws
+  port: 8080
+  server: www.blueberrywindow.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.blueberrywindow.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2
   network: ws
   port: 8080
   server: 104.21.94.99
@@ -1542,24 +1685,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦
+  name: 🇺🇸_US_美国_3
   network: ws
-  port: 80
-  server: 45.144.2.113
+  port: 8080
+  server: www.crispyrainbow.online
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      host: 45.144.2.113
+      host: www.crispyrainbow.online
     path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_4
   network: ws
   port: 8080
-  server: 172.67.212.114
+  server: www.crispyrainbow.biz
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1573,14 +1716,14 @@ proxies:
   name: 🇺🇸_US_美国_5
   network: ws
   port: 8080
-  server: www.blueberrywindow.online
+  server: 172.67.212.114
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      host: www.blueberrywindow.online
+      host: www.crispyrainbow.biz
     path: /
 - alterId: 0
   cipher: auto
@@ -1600,47 +1743,75 @@ proxies:
   cipher: auto
   name: 🇺🇸_US_美国_7
   network: ws
-  port: 8880
-  server: server3.beheshtbaneh.com
+  port: 2052
+  server: 104.19.23.194
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e305fc57-6153-4650-8c52-9a36865a199d
+  uuid: ce1b46f7-fd89-4646-a968-206d65245aba
   ws-opts:
     headers:
-      host: server3.beheshtbaneh.com
-    path: /
+      host: us3AJ8biuQx.fzbqfrse.xyz
+    path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_8
   network: ws
-  port: 8880
-  server: 104.21.82.183
+  port: 2052
+  server: 104.17.19.122
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5
+  uuid: ce1b46f7-fd89-4646-a968-206d65245aba
   ws-opts:
     headers:
-      host: server6.beheshtbaneh.com
-    path: /
+      host: us3AJ8biuQx.fzbqfrse.xyz
+    path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_9
   network: ws
-  port: 8880
-  server: server4.beheshtbaneh.com
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b7e04f2a-2a6a-4b74-a11e-06f658c36391
+  uuid: ce1b46f7-fd89-4646-a968-206d65245aba
   ws-opts:
     headers:
-      host: server4.beheshtbaneh.com
-    path: /
+      host: us3AJ8biuQx.fzbqfrse.xyz
+    path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_10
+  network: ws
+  port: 8880
+  server: server33.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0873fffc-414f-4140-a155-672129fd9a1d
+  ws-opts:
+    headers:
+      host: server33.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_11
+  network: ws
+  port: 2052
+  server: 104.18.126.211
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ce1b46f7-fd89-4646-a968-206d65245aba
+  ws-opts:
+    headers:
+      host: us3AJ8biuQx.fzbqfrse.xyz
+    path: /video/QXjZG5u4F2
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_12
   network: ws
   port: 8080
   server: 104.21.23.176
@@ -1654,63 +1825,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_11
-  network: ws
-  port: 8880
-  server: server26.beheshtbaneh.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      host: server26.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: 2095
-  server: 172.67.185.208
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3c1cca21-1373-4707-a575-195e9da0fb71
-  ws-opts:
-    headers:
-      host: ebiii.fozool76.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_12
-  network: ws
-  port: 8080
-  server: www.crispyrainbow.biz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.crispyrainbow.biz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_13
-  network: ws
-  port: 8080
-  server: www.crispyrainbow.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.crispyrainbow.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_15
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -1724,36 +1839,35 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_16
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_6
   network: ws
-  port: 8880
-  server: server9.beheshtbaneh.com
+  port: 80
+  server: www.greendam.site
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 62575747-37b4-4bf8-9ac5-95d214003be1
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      host: server9.beheshtbaneh.com
+      host: my1.tooters.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_14
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      host: server31.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
-  network: ws
-  port: 2083
-  server: 104.18.202.232
-  servername: joooin.golestan-vpn.link
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 0d3f0cf6-e010-4138-8133-140c07e5eafb
-  ws-opts:
-    headers:
-      host: joooin.golestan-vpn.link
-    path: /@golestan_vpn
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_17
+  name: 🇺🇸_US_美国_15
   network: ws
   port: 8880
   server: server32.beheshtbaneh.com
@@ -1764,6 +1878,48 @@ proxies:
   ws-opts:
     headers:
       host: server32.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_16
+  network: ws
+  port: 8880
+  server: server20.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
+  ws-opts:
+    headers:
+      host: server20.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_17
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8420ee38-4cf6-4d79-a9ec-2731207cf83a
+  ws-opts:
+    headers:
+      host: server2.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_18
+  network: ws
+  port: 8880
+  server: server26.beheshtbaneh.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      host: server26.beheshtbaneh.com
     path: /
 proxy-groups:
 - name: 🔰 节点选择
@@ -1880,10 +2036,20 @@ proxy-groups:
   - 加拿大 047
   - 加拿大 048
   - 荷兰 001
+  - 加拿大 052
+  - 加拿大 053
+  - 美国 025
+  - 加拿大 054
+  - 加拿大 055
+  - 俄罗斯 002
+  - 美国 026
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_3
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
@@ -1892,13 +2058,14 @@ proxy-groups:
   - 🇺🇸_US_美国_9
   - 🇺🇸_US_美国_10
   - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_12
   - 🇺🇸_US_美国_13
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_6
+  - 🇺🇸_US_美国_14
   - 🇺🇸_US_美国_15
   - 🇺🇸_US_美国_16
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -2013,10 +2180,20 @@ proxy-groups:
   - 加拿大 047
   - 加拿大 048
   - 荷兰 001
+  - 加拿大 052
+  - 加拿大 053
+  - 美国 025
+  - 加拿大 054
+  - 加拿大 055
+  - 俄罗斯 002
+  - 美国 026
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_3
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
@@ -2025,13 +2202,14 @@ proxy-groups:
   - 🇺🇸_US_美国_9
   - 🇺🇸_US_美国_10
   - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_12
   - 🇺🇸_US_美国_13
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_6
+  - 🇺🇸_US_美国_14
   - 🇺🇸_US_美国_15
   - 🇺🇸_US_美国_16
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -2862,6 +3040,7 @@ rules:
 - DOMAIN-SUFFIX,civitai.com,🔰 节点选择
 - DOMAIN-SUFFIX,unity.com,🔰 节点选择
 - DOMAIN-SUFFIX,unity3d.com,🔰 节点选择
+- DOMAIN-SUFFIX,f-droid.org,🔰 节点选择
 - DOMAIN-KEYWORD,mastodon,🔰 节点选择
 - DOMAIN-SUFFIX,github.com,🖥️ Github
 - DOMAIN-SUFFIX,api.github.com,🖥️ Github
