@@ -1242,24 +1242,350 @@ proxies:
     path: /path/271624282113
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1
+  name: 加拿大 034
   network: ws
-  port: 8080
-  server: 104.21.54.252
+  port: 2095
+  server: 172.64.150.65
+  tls: false
+  type: vmess
+  uuid: bdede9d3-68c4-4bb1-8ad1-9a8eb07ff76f
+  ws-opts:
+    headers:
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 加拿大 035
+  network: ws
+  port: 80
+  server: lxcus.inekokkk.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 105cdff6-14d6-4f31-df69-d2d58c003c8b
+  ws-opts:
+    headers:
+      Host: lxcus.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 加拿大 036
+  network: ws
+  port: 80
+  server: 104.21.226.254
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 美国 040
+  network: ws
+  port: 38000
+  server: 192.74.237.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.51291807.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 041
+  network: ws
+  port: 38000
+  server: 38.165.72.131
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.22103619.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 042
+  network: ws
+  port: 37000
+  server: 38.38.148.235
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.88186618.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 043
+  network: ws
+  port: 443
+  server: 142.171.238.20
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.76482812.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 044
+  network: ws
+  port: 36000
+  server: 38.11.218.163
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.63181393.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 045
+  network: ws
+  port: 443
+  server: 142.171.25.132
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.29810260.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 046
+  network: ws
+  port: 38000
+  server: 142.4.104.162
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.87140386.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 047
+  network: ws
+  port: 38100
+  server: 38.14.107.227
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 048
+  network: ws
+  port: 36000
+  server: 38.14.121.167
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.19414772.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 049
+  network: ws
+  port: 37000
+  server: 198.2.219.247
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.41912208.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 050
+  network: ws
+  port: 37000
+  server: 198.2.203.113
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.43537463.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 荷兰 005
+  network: ws
+  port: 41001
+  server: 46.182.107.56
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.63929391.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 051
+  network: ws
+  port: 37000
+  server: 137.175.5.116
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.99555130.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 052
+  network: ws
+  port: 37000
+  server: 38.38.181.227
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.60184527.xyz
+    path: /path/271624282113
+- alterId: 0
+  cipher: auto
+  name: 加拿大 037
+  network: ws
+  port: 2086
+  server: dl3s.doushimeng.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  udp: true
+  uuid: 1631e28b-20ab-4345-b629-330e4a5aa94d
   ws-opts:
     headers:
-      host: www.velvetmountain.shop
-    path: /
+      Host: cf-dee1.doushimeng.free.hr
+    path: /asdas
+- alterId: 64
+  cipher: auto
+  name: 美国 053
+  network: ws
+  port: 37000
+  server: 142.0.131.152
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.72594139.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 054
+  network: ws
+  port: 37000
+  server: 38.14.120.225
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.65825524.xyz
+    path: /path/271624282113
+- alterId: 0
+  cipher: auto
+  name: 加拿大 038
+  network: ws
+  port: 443
+  server: 198.41.212.234
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  ws-opts:
+    headers:
+      Host: 2022-world-1.a-yu.xyz
+    path: /sakura/
+- alterId: 4
+  cipher: auto
+  name: 澳大利亚 002
+  network: ws
+  port: 443
+  server: Ze9baeS5.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: Ze9baeS5.com
+    path: /ws
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
   network: ws
   port: 80
-  server: 172.67.253.239
+  server: 104.22.51.162
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  network: ws
+  port: 80
+  server: 104.20.231.30
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_3
+  network: ws
+  port: 80
+  server: 104.16.77.74
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1268,6 +1594,76 @@ proxies:
     headers:
       host: my1.tooters.ir
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  network: ws
+  port: 80
+  server: for-irancell.outline-vpn.cloud
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_5
+  network: ws
+  port: 80
+  server: 172.67.253.230
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_6
+  network: ws
+  port: 80
+  server: 104.24.208.37
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_7
+  network: ws
+  port: 80
+  server: 104.21.69.44
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt4.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱_NL_荷兰
+  network: ws
+  port: 80
+  server: 188.114.96.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      host: a.prapt4.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
@@ -1298,62 +1694,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  network: ws
-  port: 80
-  server: 172.67.253.71
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3
-  network: ws
-  port: 8080
-  server: www.brightocean.lol
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.brightocean.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷_FR_法国->🇬🇧_GB_英国
-  network: ws
-  port: 8880
-  server: 57.128.173.202
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      host: internet.life.com.by
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  network: ws
-  port: 80
-  server: 172.67.253.105
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
   network: ws
   port: 2082
@@ -1366,167 +1706,71 @@ proxies:
     headers:
       host: s1c.v2.v001sss.xyz
     path: /
+- cipher: aes-256-gcm
+  name: 🇧🇷_BR_巴西
+  password: 86379168-47dd-4fc3-a2d7-5183802487f6
+  port: 7703
+  server: 152.67.41.90
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4
+  name: 🇺🇸_US_美国_1
   network: ws
-  port: 8080
-  server: www.ywnouvbale.biz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.ywnouvbale.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_4
-  network: ws
-  port: 80
-  server: 172.67.253.243
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_5
-  network: ws
-  port: 8080
-  server: de-01.cloudlion.me
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      host: de-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5
-  network: ws
-  port: 80
-  server: 172.67.217.144
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
-  ws-opts:
-    headers:
-      host: lv1.xv2ray.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_6
-  network: ws
-  port: 80
-  server: 172.67.253.158
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_7
-  network: ws
-  port: 80
-  server: 172.67.253.221
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      host: my1.tooters.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇯🇵_JP_日本
-  network: ws
-  port: 8080
-  server: 104.17.123.55
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
-  ws-opts:
-    headers:
-      host: pq.kmoljklj.top
-    path: /qZTtpya?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦
-  network: ws
-  port: 80
-  server: 45.144.2.113
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 88bd03e6-5ada-42da-9e77-448cd8c60e13
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_8
-  network: ws
-  port: 8880
+  port: 2086
   server: cfcdn1.sanfencdn9.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: de6969ab-ec16-4263-8c11-9187e8ca0782
+  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
   ws-opts:
     headers:
-      host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
+      host: us77SmSk86j.fzbqfrse.xyz
+    path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_9
+  name: 🇺🇸_US_美国_2
   network: ws
-  port: 8080
-  server: 162.159.130.208
+  port: 2086
+  server: 104.16.35.48
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
+  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
   ws-opts:
     headers:
-      host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_10
-  password: amazonskr05
-  port: 443
-  server: 54.202.3.34
-  type: ss
+      host: us77SmSk86j.fzbqfrse.xyz
+    path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_11
+  name: 🇺🇸_US_美国_3
   network: ws
-  port: 80
-  server: 172.64.141.3
+  port: 2086
+  server: 104.19.91.152
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
+  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
   ws-opts:
     headers:
-      host: newus2.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
+      host: us77SmSk86j.fzbqfrse.xyz
+    path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_8
+  name: 🇺🇸_US_美国_4
+  network: ws
+  port: 2095
+  server: 172.64.150.65
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bdede9d3-68c4-4bb1-8ad1-9a8eb07ff76f
+  ws-opts:
+    headers:
+      host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_5
   network: ws
   port: 80
   server: 104.21.225.251
@@ -1631,28 +1875,45 @@ proxy-groups:
   - 美国 037
   - 美国 038
   - 美国 039
-  - 🇺🇸_US_美国_1
+  - 加拿大 034
+  - 加拿大 035
+  - 加拿大 036
+  - 美国 040
+  - 美国 041
+  - 美国 042
+  - 美国 043
+  - 美国 044
+  - 美国 045
+  - 美国 046
+  - 美国 047
+  - 美国 048
+  - 美国 049
+  - 美国 050
+  - 荷兰 005
+  - 美国 051
+  - 美国 052
+  - 加拿大 037
+  - 美国 053
+  - 美国 054
+  - 加拿大 038
+  - 澳大利亚 002
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇺🇸_US_美国_3
-  - 🇫🇷_FR_法国->🇬🇧_GB_英国
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国->🇩🇪_DE_德国_4
   - 🇺🇸_US_美国->🇩🇪_DE_德国_5
-  - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国->🇩🇪_DE_德国_6
   - 🇺🇸_US_美国->🇩🇪_DE_德国_7
-  - 🇺🇸_US_美国->🇯🇵_JP_日本
-  - 🇷🇺_RU_俄罗斯联邦
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国_10
-  - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_8
+  - 🇳🇱_NL_荷兰
+  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  - 🇧🇷_BR_巴西
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_5
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1745,28 +2006,45 @@ proxy-groups:
   - 美国 037
   - 美国 038
   - 美国 039
-  - 🇺🇸_US_美国_1
+  - 加拿大 034
+  - 加拿大 035
+  - 加拿大 036
+  - 美国 040
+  - 美国 041
+  - 美国 042
+  - 美国 043
+  - 美国 044
+  - 美国 045
+  - 美国 046
+  - 美国 047
+  - 美国 048
+  - 美国 049
+  - 美国 050
+  - 荷兰 005
+  - 美国 051
+  - 美国 052
+  - 加拿大 037
+  - 美国 053
+  - 美国 054
+  - 加拿大 038
+  - 澳大利亚 002
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇺🇸_US_美国_3
-  - 🇫🇷_FR_法国->🇬🇧_GB_英国
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国->🇩🇪_DE_德国_4
   - 🇺🇸_US_美国->🇩🇪_DE_德国_5
-  - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国->🇩🇪_DE_德国_6
   - 🇺🇸_US_美国->🇩🇪_DE_德国_7
-  - 🇺🇸_US_美国->🇯🇵_JP_日本
-  - 🇷🇺_RU_俄罗斯联邦
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国_10
-  - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_8
+  - 🇳🇱_NL_荷兰
+  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  - 🇧🇷_BR_巴西
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_5
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
