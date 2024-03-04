@@ -2946,6 +2946,129 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 美国 099
+  network: tcp
+  port: 443
+  server: pitcairn.ednovas.org
+  skip-cert-verify: true
+  type: vmess
+  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
+- alterId: 64
+  cipher: auto
+  name: 美国 100
+  network: ws
+  port: 36000
+  server: 38.14.100.176
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.80150658.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 荷兰 012
+  network: ws
+  port: 41000
+  server: 156.225.67.117
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
+  ws-opts:
+    headers:
+      Host: www.31281448.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 荷兰 013
+  network: ws
+  port: 41001
+  server: 156.249.18.173
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.96586473.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 101
+  network: ws
+  port: 38001
+  server: 142.4.116.163
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.33586067.xyz
+    path: /path/271624282113
+- alterId: 1
+  cipher: auto
+  name: 日本 009
+  network: tcp
+  port: 21583
+  server: 43.207.222.218
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 65cdb2a2-ac65-3dc6-992d-a58b8cb996b9
+- alterId: 0
+  cipher: auto
+  name: 日本 010
+  network: ws
+  port: 54752
+  server: 64.110.101.83
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2da64de4-54d0-4611-ab16-3401a8d16f0c
+  ws-opts:
+    headers:
+      Host: japan.pxiz.site
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 韩国 006
+  network: ws
+  port: 28902
+  server: 64.110.91.178
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2da64de4-54d0-4611-ab16-3401a8d16f0c
+  ws-opts:
+    headers:
+      Host: kr.pxiz.site
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国 102
+  network: tcp
+  port: 443
+  server: 173.249.197.176
+  skip-cert-verify: true
+  type: vmess
+  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
+- alterId: 2
+  cipher: auto
+  name: 加拿大 076
+  network: ws
+  port: 80
+  server: free.qdns.live
+  skip-cert-verify: true
+  type: vmess
+  uuid: ad6afad6-5659-3f25-9477-029735d5401c
+  ws-opts:
+    headers:
+      Host: free-us.qdns.live
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
   network: ws
   port: 80
@@ -3417,6 +3540,16 @@ proxy-groups:
   - 日本 006
   - 日本 007
   - 日本 008
+  - 美国 099
+  - 美国 100
+  - 荷兰 012
+  - 荷兰 013
+  - 美国 101
+  - 日本 009
+  - 日本 010
+  - 韩国 006
+  - 美国 102
+  - 加拿大 076
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
@@ -3656,6 +3789,16 @@ proxy-groups:
   - 日本 006
   - 日本 007
   - 日本 008
+  - 美国 099
+  - 美国 100
+  - 荷兰 012
+  - 荷兰 013
+  - 美国 101
+  - 日本 009
+  - 日本 010
+  - 韩国 006
+  - 美国 102
+  - 加拿大 076
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国->🇩🇪_DE_德国_2
