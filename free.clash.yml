@@ -517,6 +517,62 @@ proxies:
     headers:
       Host: de11.xn--mes53ddysu0o3gl.top
     path: /xn--mes53ddysu0o3gl
+- alterId: 64
+  cipher: auto
+  name: 美国 009
+  network: ws
+  port: 37000
+  server: 38.48.191.109
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.96128725.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 010
+  network: ws
+  port: 37000
+  server: 108.186.238.7
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.20234339.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 011
+  network: ws
+  port: 38000
+  server: 38.165.72.132
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.22103619.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 012
+  network: ws
+  port: 30000
+  server: 38.38.169.107
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.87044255.xyz
+    path: /path/153428133302
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
@@ -728,6 +784,10 @@ proxy-groups:
   - 日本 003
   - 加拿大 012
   - 加拿大 013
+  - 美国 009
+  - 美国 010
+  - 美国 011
+  - 美国 012
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇳🇱_NL_荷兰
   - 🇨🇦_CA_加拿大->🇺🇸_US_美国_1
@@ -782,6 +842,10 @@ proxy-groups:
   - 日本 003
   - 加拿大 012
   - 加拿大 013
+  - 美国 009
+  - 美国 010
+  - 美国 011
+  - 美国 012
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇳🇱_NL_荷兰
   - 🇨🇦_CA_加拿大->🇺🇸_US_美国_1
