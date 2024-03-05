@@ -437,6 +437,86 @@ proxies:
     headers:
       Host: worker-lingering-fog-c021.gesofog870.workers.dev
     path: /kellie.makeup/linkvws
+- alterId: 64
+  cipher: auto
+  name: 美国 007
+  network: ws
+  port: 37000
+  server: 137.175.5.118
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.99555130.xyz
+    path: /path/271624282113
+- alterId: 64
+  cipher: auto
+  name: 美国 008
+  network: ws
+  port: 443
+  server: 142.171.61.222
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.49938442.xyz
+    path: /path/271624282113
+- alterId: 0
+  cipher: auto
+  name: 荷兰 005
+  network: ws
+  port: 443
+  server: 188.114.99.150
+  tls: true
+  type: vmess
+  uuid: e4c7e0ce-ed93-40d9-8f38-90497cb83864
+  ws-opts:
+    headers:
+      Host: fi1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 日本 003
+  network: ws
+  port: 33003
+  server: 141.147.180.214
+  skip-cert-verify: true
+  type: vmess
+  uuid: f3f3df6b-2f64-4728-cf2b-dd814a72cdf7
+  ws-opts:
+    headers:
+      Host: jp-tokyo-oracle-dc8895.ip1.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 012
+  network: ws
+  port: 80
+  server: usnew.lbxjc.site
+  skip-cert-verify: true
+  type: vmess
+  uuid: 05b06b66-f860-40d9-8186-0ce8cbdc814b
+  ws-opts:
+    headers:
+      Host: us11.xn--mes53ddysu0o3gl.top
+    path: /xn--mes53ddysu0o3gl
+- alterId: 0
+  cipher: auto
+  name: 加拿大 013
+  network: ws
+  port: 80
+  server: ott.lbxjc.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: 05b06b66-f860-40d9-8186-0ce8cbdc814b
+  ws-opts:
+    headers:
+      Host: de11.xn--mes53ddysu0o3gl.top
+    path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
@@ -642,6 +722,12 @@ proxy-groups:
   - 荷兰 004
   - 加拿大 011
   - 俄罗斯 002
+  - 美国 007
+  - 美国 008
+  - 荷兰 005
+  - 日本 003
+  - 加拿大 012
+  - 加拿大 013
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇳🇱_NL_荷兰
   - 🇨🇦_CA_加拿大->🇺🇸_US_美国_1
@@ -690,6 +776,12 @@ proxy-groups:
   - 荷兰 004
   - 加拿大 011
   - 俄罗斯 002
+  - 美国 007
+  - 美国 008
+  - 荷兰 005
+  - 日本 003
+  - 加拿大 012
+  - 加拿大 013
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇳🇱_NL_荷兰
   - 🇨🇦_CA_加拿大->🇺🇸_US_美国_1
@@ -1544,7 +1636,8 @@ rules:
 - DOMAIN-SUFFIX,fastly.net,🖥️ Github
 - DOMAIN-SUFFIX,onedrive.live.com,🖥️ Github
 - DOMAIN-SUFFIX,foursquare.com,🌐 Steam
-- DOMAIN-SUFFIX,steampowered.com,🌐 Steam - DOMAIN-SUFFIX,stun.antisip.com,🌐 Steam
+- DOMAIN-SUFFIX,steampowered.com,🌐 Steam
+- DOMAIN-SUFFIX,stun.antisip.com,🌐 Steam
 - DOMAIN-SUFFIX,stun.bluesip.net,🌐 Steam
 - DOMAIN-SUFFIX,stun.dus.net,🌐 Steam
 - DOMAIN-SUFFIX,stun.epygi.com,🌐 Steam
