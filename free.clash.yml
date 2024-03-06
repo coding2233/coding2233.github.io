@@ -575,74 +575,110 @@ proxies:
     path: /path/153428133302
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  network: ws
-  port: 80
-  server: 104.21.69.44
+  name: 德国 001
+  network: tcp
+  port: 17425
+  server: 49.13.152.58
   skip-cert-verify: true
-  tls: false
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 3bd8b1a7-244e-40b1-8686-e262c2cb239f
+- alterId: 0
+  cipher: auto
+  name: 加拿大 014
+  network: ws
+  port: 443
+  server: 104.16.216.241
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      host: a.prapt4.ir
+      Host: nelly.homes
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 加拿大 015
+  network: ws
+  port: 2052
+  server: 104.21.23.231
+  skip-cert-verify: true
+  type: vmess
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇳🇱_NL_荷兰
+  name: 加拿大 016
   network: ws
-  port: 80
-  server: 188.114.96.113
+  port: 443
+  server: 104.16.217.241
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      host: a.prapt4.ir
-    path: /
+      Host: nelly.homes
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_1
   network: ws
   port: 8080
-  server: 23.227.38.23
+  server: 23.227.38.11
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
+  uuid: 4a5ae806-ee72-473a-83b2-531808f454d5
   ws-opts:
     headers:
-      host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
+      host: championship-bidding-oxygen-brochure.trycloudflare.com
+    path: 4a5ae806-ee72-473a-83b2-531808f454d5-vm
 - alterId: 0
   cipher: auto
   name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_2
   network: ws
   port: 8080
-  server: 23.227.39.24
+  server: 23.227.38.44
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e62899a7-438c-40ef-96d6-259cb26d6fdd
+  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
+  ws-opts:
+    headers:
+      host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_3
+  network: ws
+  port: 8080
+  server: 23.227.38.22
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9d23b60-6e44-45a2-b24f-c8521c04c310
   ws-opts:
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
-    path: e62899a7-438c-40ef-96d6-259cb26d6fdd-vm
+    path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_4
   network: ws
   port: 8080
-  server: yh2.freeh1.xyz
+  server: 23.227.39.12
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: bdce8656-2802-4470-8946-ef3cf5244aa6
+  uuid: 1a855748-ec07-408a-a3a2-7e1099a30616
   ws-opts:
     headers:
-      host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 1a855748-ec07-408a-a3a2-7e1099a30616-vm
 - alterId: 0
   cipher: auto
   name: 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
@@ -659,7 +695,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_1
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: fbi.gov
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e5c55d-e59b-42c4-aeb9-393e18525cca
+  ws-opts:
+    headers:
+      host: nest-emily-healing-h.trycloudflare.com
+    path: b1e5c55d-e59b-42c4-aeb9-393e18525cca-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -673,7 +723,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_2
+  name: 🇺🇸_US_美国_1
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -687,7 +737,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国
   network: ws
   port: 8080
   server: 172.67.169.158
@@ -701,46 +751,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  name: 🇺🇸_US_美国_2
   network: ws
   port: 8080
-  server: fbi.gov
+  server: 162.159.130.208
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 693da022-8e1f-4dab-b3ac-556321989f17
+  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
   ws-opts:
     headers:
-      host: nest-emily-healing-h.trycloudflare.com
-    path: 693da022-8e1f-4dab-b3ac-556321989f17-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-  network: ws
-  port: 8080
-  server: yh1.freeh1.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fbacc445-fe1c-4122-a2dd-c28c733ea043
-  ws-opts:
-    headers:
-      host: larger-marketing-amounts-skin.trycloudflare.com
-    path: fbacc445-fe1c-4122-a2dd-c28c733ea043-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国
-  network: ws
-  port: 8080
-  server: yh2.dtku41.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
-  ws-opts:
-    headers:
-      host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
+      host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -788,18 +810,20 @@ proxy-groups:
   - 美国 010
   - 美国 011
   - 美国 012
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇳🇱_NL_荷兰
+  - 德国 001
+  - 加拿大 014
+  - 加拿大 015
+  - 加拿大 016
   - 🇨🇦_CA_加拿大->🇺🇸_US_美国_1
   - 🇨🇦_CA_加拿大->🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_3
+  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_4
   - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国_2
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -846,18 +870,20 @@ proxy-groups:
   - 美国 010
   - 美国 011
   - 美国 012
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇳🇱_NL_荷兰
+  - 德国 001
+  - 加拿大 014
+  - 加拿大 015
+  - 加拿大 016
   - 🇨🇦_CA_加拿大->🇺🇸_US_美国_1
   - 🇨🇦_CA_加拿大->🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_3
+  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_4
   - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_2
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国_2
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
@@ -895,8 +921,6 @@ rules:
 - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
 - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
 - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
-- GEOIP,CN,🎯 全球直连
-- MATCH,🐟 漏网之鱼
 - PROCESS-NAME,natmap,DIRECT
 - DOMAIN-SUFFIX,jtvnw.net,🔰 节点选择
 - DOMAIN-SUFFIX,ttvnw.net,🔰 节点选择
@@ -1715,6 +1739,8 @@ rules:
 - DOMAIN-SUFFIX,stun.sonetel.net,🌐 Steam
 - DOMAIN-SUFFIX,stun.uls.co.za,🌐 Steam
 - DOMAIN-SUFFIX,stun.voipgate.com,🌐 Steam
+- GEOIP,CN,🎯 全球直连
+- MATCH,🐟 漏网之鱼
 socks-port: 7891
 dns:
   ipv6: true
