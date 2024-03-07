@@ -1155,63 +1155,195 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_1
+  name: 加拿大 021
   network: ws
-  port: 8080
-  server: 23.227.38.11
+  port: 80
+  server: 104.16.67.38
   skip-cert-verify: true
-  tls: false
   type: vmess
-  uuid: 4a5ae806-ee72-473a-83b2-531808f454d5
+  uuid: f8c92b3b-5447-44a5-9e54-23cdc269cb93
   ws-opts:
     headers:
-      host: championship-bidding-oxygen-brochure.trycloudflare.com
-    path: 4a5ae806-ee72-473a-83b2-531808f454d5-vm
+      Host: aq.daozhang.link
+    path: f8c92b3b
 - alterId: 0
   cipher: auto
-  name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_2
+  name: 美国 041
   network: ws
-  port: 8080
-  server: 23.227.38.44
+  port: 80
+  server: 172.64.169.171
   skip-cert-verify: true
-  tls: false
   type: vmess
-  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
+  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
   ws-opts:
     headers:
-      host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
-- alterId: 0
+      Host: de11.xn--mes53ddysu0o3gl.top
+    path: /xn--mes53ddysu0o3gl
+- alterId: 64
   cipher: auto
-  name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_3
+  name: 美国 042
   network: ws
-  port: 8080
-  server: 23.227.38.22
+  port: 37000
+  server: 38.174.164.85
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: e9d23b60-6e44-45a2-b24f-c8521c04c310
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      host: per-essex-patterns-bowling.trycloudflare.com
-    path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
-- alterId: 0
+      Host: www.50979398.xyz
+    path: /path/153428133302
+- alterId: 64
   cipher: auto
-  name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_4
+  name: 美国 043
   network: ws
-  port: 8080
-  server: 23.227.39.12
+  port: 37000
+  server: 38.165.73.226
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 1a855748-ec07-408a-a3a2-7e1099a30616
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 1a855748-ec07-408a-a3a2-7e1099a30616-vm
+      Host: www.18469970.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 荷兰 010
+  network: ws
+  port: 41000
+  server: 156.225.67.158
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5
+  ws-opts:
+    headers:
+      Host: www.53854245.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 044
+  network: ws
+  port: 37000
+  server: 198.2.215.148
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.88016387.xyz
+    path: /path/153428133302
 - alterId: 0
   cipher: auto
-  name: 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  name: 美国 045
+  network: ws
+  port: 80
+  server: 151.101.193.57
+  skip-cert-verify: true
+  type: vmess
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  ws-opts:
+    headers:
+      Host: nmsl.kp
+    path: /aries?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 美国 046
+  network: ws
+  port: 37000
+  server: 38.14.123.188
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.33756710.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 047
+  network: ws
+  port: 36000
+  server: 38.48.151.197
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.83008320.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 048
+  network: ws
+  port: 37000
+  server: 137.175.5.120
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.99555130.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 049
+  network: ws
+  port: 443
+  server: 142.171.186.88
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a9abf3e7-87f4-473d-8d03-2f26ca4b3583
+  ws-opts:
+    headers:
+      Host: www.49175366.xyz
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 加拿大 022
+  network: ws
+  port: 443
+  server: 104.21.25.94
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4d74f126-0ef1-4579-b0a3-78e7b48ef067
+  ws-opts:
+    headers:
+      Host: de2-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 德国 002
+  network: tcp
+  port: 24208
+  server: 195.201.29.238
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1d244b9d-ce0f-49d5-99fd-da3f1e80ee59
+- alterId: 0
+  cipher: auto
+  name: 加拿大 023
+  network: ws
+  port: 443
+  server: 198.41.221.169
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  ws-opts:
+    headers:
+      Host: zero1.a-yu.xyz
+    path: /sakura/
+- alterId: 0
+  cipher: auto
+  name: 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -1232,14 +1364,28 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b1e5c55d-e59b-42c4-aeb9-393e18525cca
+  uuid: 0a5903c5-0ff3-4d79-9420-2a966873f787
   ws-opts:
     headers:
-      host: nest-emily-healing-h.trycloudflare.com
-    path: b1e5c55d-e59b-42c4-aeb9-393e18525cca-vm
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: 0a5903c5-0ff3-4d79-9420-2a966873f787-vm
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  name: 🇷🇺_RU_俄罗斯联邦
+  network: ws
+  port: 443
+  server: 176.120.74.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 75695f5a-b6af-44f4-9983-ae250b53ff9c
+  ws-opts:
+    headers:
+      host: internet.life.com.by
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_1
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -1253,46 +1399,32 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1
-  network: ws
-  port: 2082
-  server: s1c.v2.v001sss.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国
-  network: ws
-  port: 8080
-  server: 172.67.169.158
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      host: fr-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国_2
   network: ws
-  port: 8080
-  server: 162.159.130.208
+  port: 80
+  server: cloudflare.cfgo.cc
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
+  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
   ws-opts:
     headers:
-      host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
+      host: wap.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: 23.227.38.22
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9d23b60-6e44-45a2-b24f-c8521c04c310
+  ws-opts:
+    headers:
+      host: per-essex-patterns-bowling.trycloudflare.com
+    path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -1384,16 +1516,26 @@ proxy-groups:
   - 美国 040
   - 加拿大 020
   - 日本 005
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_1
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_2
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_3
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_4
-  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  - 加拿大 021
+  - 美国 041
+  - 美国 042
+  - 美国 043
+  - 荷兰 010
+  - 美国 044
+  - 美国 045
+  - 美国 046
+  - 美国 047
+  - 美国 048
+  - 美国 049
+  - 加拿大 022
+  - 德国 002
+  - 加拿大 023
+  - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_2
+  - 🇨🇦_CA_加拿大
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1484,16 +1626,26 @@ proxy-groups:
   - 美国 040
   - 加拿大 020
   - 日本 005
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_1
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_2
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_3
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_4
-  - 🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  - 加拿大 021
+  - 美国 041
+  - 美国 042
+  - 美国 043
+  - 荷兰 010
+  - 美国 044
+  - 美国 045
+  - 美国 046
+  - 美国 047
+  - 美国 048
+  - 美国 049
+  - 加拿大 022
+  - 德国 002
+  - 加拿大 023
+  - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_2
+  - 🇨🇦_CA_加拿大
   type: url-test
   url: http://www.google.com/generate_204
 - name: 🎯 全球直连
