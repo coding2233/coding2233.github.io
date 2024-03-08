@@ -1761,6 +1761,118 @@ proxies:
     headers:
       Host: m.instagram.com
     path: /Shalana
+- alterId: 64
+  cipher: auto
+  name: 美国 068
+  network: ws
+  port: 443
+  server: 172.111.57.195
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.88166954.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 069
+  network: ws
+  port: 37000
+  server: 198.2.222.120
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.54790250.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 070
+  network: ws
+  port: 443
+  server: 172.111.57.163
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.11886159.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 071
+  network: ws
+  port: 37000
+  server: 38.38.153.198
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.78310250.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 072
+  network: ws
+  port: 37000
+  server: 38.174.164.86
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.50979398.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 073
+  network: ws
+  port: 36000
+  server: 38.173.197.24
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23602249.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 074
+  network: ws
+  port: 37000
+  server: 137.175.5.121
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.99555130.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 075
+  network: ws
+  port: 37000
+  server: 142.4.99.36
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.86222404.xyz
+    path: /path/153428133302
 - alterId: 0
   cipher: auto
   name: 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
@@ -1938,6 +2050,14 @@ proxy-groups:
   - 美国 066
   - 美国 067
   - 澳大利亚 002
+  - 美国 068
+  - 美国 069
+  - 美国 070
+  - 美国 071
+  - 美国 072
+  - 美国 073
+  - 美国 074
+  - 美国 075
   - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇫🇷_FR_法国
@@ -2075,6 +2195,14 @@ proxy-groups:
   - 美国 066
   - 美国 067
   - 澳大利亚 002
+  - 美国 068
+  - 美国 069
+  - 美国 070
+  - 美国 071
+  - 美国 072
+  - 美国 073
+  - 美国 074
+  - 美国 075
   - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇫🇷_FR_法国
