@@ -2780,6 +2780,7 @@ rules:
 - DOMAIN-SUFFIX,steampowered.com,🌐 Steam
 - DOMAIN-SUFFIX,steamserver.net,🌐 Steam
 - DOMAIN-SUFFIX,dl.steam.clngaa.com,🌐 Steam
+- DOMAIN-SUFFIX,steamstatic.com,🌐 Steam
 - DOMAIN-SUFFIX,stun.antisip.com,🌐 Steam
 - DOMAIN-SUFFIX,stun.bluesip.net,🌐 Steam
 - DOMAIN-SUFFIX,stun.dus.net,🌐 Steam
