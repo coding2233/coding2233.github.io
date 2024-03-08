@@ -1640,6 +1640,129 @@ proxies:
     path: /hello
 - alterId: 0
   cipher: auto
+  name: 加拿大 027
+  network: ws
+  port: 80
+  server: www.visa.com.hk
+  skip-cert-verify: true
+  type: vmess
+  uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
+  ws-opts:
+    headers:
+      Host: ydmmamd2.mac2win.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 加拿大 028
+  network: ws
+  port: 8080
+  server: www.visa.co.jp
+  skip-cert-verify: true
+  type: vmess
+  uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
+  ws-opts:
+    headers:
+      Host: ydmmamd1.mac2win.top
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 美国 063
+  network: ws
+  port: 36000
+  server: 198.2.215.105
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59977650.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 064
+  network: ws
+  port: 37000
+  server: 142.0.131.157
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.72594139.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 065
+  network: ws
+  port: 38100
+  server: 38.14.107.236
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 加拿大 029
+  network: ws
+  port: 30000
+  server: 74.48.221.238
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68841301.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 066
+  network: ws
+  port: 37000
+  server: 198.2.215.149
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.88016387.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 067
+  network: ws
+  port: 38000
+  server: 38.14.102.228
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.54699295.xyz
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 澳大利亚 002
+  network: ws
+  port: 52184
+  server: 170.64.205.32
+  skip-cert-verify: true
+  type: vmess
+  uuid: 67be35e4-d5e4-4468-8c21-797db958ef5b
+  ws-opts:
+    headers:
+      Host: m.instagram.com
+    path: /Shalana
+- alterId: 0
+  cipher: auto
   name: 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
   network: ws
   port: 8880
@@ -1806,6 +1929,15 @@ proxy-groups:
   - 韩国 001
   - 韩国 002
   - 韩国 003
+  - 加拿大 027
+  - 加拿大 028
+  - 美国 063
+  - 美国 064
+  - 美国 065
+  - 加拿大 029
+  - 美国 066
+  - 美国 067
+  - 澳大利亚 002
   - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇫🇷_FR_法国
@@ -1934,6 +2066,15 @@ proxy-groups:
   - 韩国 001
   - 韩国 002
   - 韩国 003
+  - 加拿大 027
+  - 加拿大 028
+  - 美国 063
+  - 美国 064
+  - 美国 065
+  - 加拿大 029
+  - 美国 066
+  - 美国 067
+  - 澳大利亚 002
   - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇺🇸_US_美国->🇫🇷_FR_法国
@@ -2781,6 +2922,7 @@ rules:
 - DOMAIN-SUFFIX,steamserver.net,🌐 Steam
 - DOMAIN-SUFFIX,dl.steam.clngaa.com,🌐 Steam
 - DOMAIN-SUFFIX,steamstatic.com,🌐 Steam
+- DOMAIN-SUFFIX,rf4game.ru,🌐 Steam
 - DOMAIN-SUFFIX,stun.antisip.com,🌐 Steam
 - DOMAIN-SUFFIX,stun.bluesip.net,🌐 Steam
 - DOMAIN-SUFFIX,stun.dus.net,🌐 Steam
