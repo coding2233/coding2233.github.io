@@ -1343,6 +1343,303 @@ proxies:
     path: /sakura/
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 美国 050
+  network: ws
+  port: 2053
+  server: 47.76.80.72
+  servername: cfhk.393930.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 美国 051
+  network: ws
+  port: 37000
+  server: 38.14.120.229
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.65825524.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 052
+  network: ws
+  port: 37000
+  server: 198.2.219.252
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.41912208.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 053
+  network: ws
+  port: 37000
+  server: 108.186.238.9
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.20234339.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 054
+  network: ws
+  port: 30000
+  server: 38.38.169.110
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.87044255.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 055
+  network: ws
+  port: 37000
+  server: 38.14.100.218
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.33799494.xyz
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 美国 056
+  network: ws
+  port: 443
+  server: usa.sstank.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
+  ws-opts:
+    headers:
+      Host: usa.sstank.top
+    path: /hello
+- alterId: 0
+  cipher: auto
+  name: 美国 057
+  network: ws
+  port: 443
+  server: sgoracle3.sstank.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9ad49ff7-de2d-3b71-af59-9ca1d47a174b
+  ws-opts:
+    headers:
+      Host: sgoracle3.sstank.top
+    path: /H6MDrCvt
+- alterId: 0
+  cipher: auto
+  name: 日本 007
+  network: ws
+  port: 443
+  server: jp3.sstank.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
+  ws-opts:
+    headers:
+      Host: jp3.sstank.top
+    path: /hello
+- alterId: 0
+  cipher: auto
+  name: 美国 058
+  network: ws
+  port: 443
+  server: sgoracle1.sstank.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
+  ws-opts:
+    headers:
+      Host: sgoracle1.sstank.top
+    path: /H6MDrCvt
+- alterId: 64
+  cipher: auto
+  name: 美国 059
+  network: ws
+  port: 37000
+  server: 198.2.203.116
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.43537463.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 美国 060
+  network: ws
+  port: 37000
+  server: 142.4.99.33
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.86222404.xyz
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 加拿大 024
+  network: ws
+  port: 443
+  server: backcn.rmanluo.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9ad49ff7-de2d-3b71-af59-9ca1d47a174b
+  ws-opts:
+    headers:
+      Host: backcn.rmanluo.top
+    path: /hello
+- alterId: 0
+  cipher: auto
+  name: 加拿大 025
+  network: ws
+  port: 443
+  server: mel.rmanluo.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9ad49ff7-de2d-3b71-af59-9ca1d47a174b
+  ws-opts:
+    headers:
+      Host: mel.rmanluo.top
+    path: /hello
+- alterId: 0
+  cipher: auto
+  name: 美国 061
+  network: ws
+  port: 443
+  server: sgoracle2.sstank.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9ad49ff7-de2d-3b71-af59-9ca1d47a174b
+  ws-opts:
+    headers:
+      Host: sgoracle2.sstank.top
+    path: /H6MDrCvt
+- alterId: 2
+  cipher: auto
+  name: 加拿大 026
+  network: ws
+  port: 443
+  server: jp.sstank.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9ad49ff7-de2d-3b71-af59-9ca1d47a174b
+  ws-opts:
+    headers:
+      Host: jp.sstank.top
+    path: /v2ray
+- alterId: 2
+  cipher: auto
+  name: 日本 008
+  network: ws
+  port: 443
+  server: jp2.sstank.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9ad49ff7-de2d-3b71-af59-9ca1d47a174b
+  ws-opts:
+    headers:
+      Host: jp2.sstank.top
+    path: /hello
+- alterId: 0
+  cipher: auto
+  name: 美国 062
+  network: ws
+  port: 443
+  server: usa4.sstank.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9ad49ff7-de2d-3b71-af59-9ca1d47a174b
+  ws-opts:
+    headers:
+      Host: usa4.sstank.top
+    path: /H6MDrCvt
+- alterId: 2
+  cipher: auto
+  name: 韩国 001
+  network: ws
+  port: 443
+  server: kr.sstank.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9ad49ff7-de2d-3b71-af59-9ca1d47a174b
+  ws-opts:
+    headers:
+      Host: kr.sstank.top
+    path: /hello
+- alterId: 2
+  cipher: auto
+  name: 韩国 002
+  network: ws
+  port: 443
+  server: kr1.sstank.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9ad49ff7-de2d-3b71-af59-9ca1d47a174b
+  ws-opts:
+    headers:
+      Host: kr1.sstank.top
+    path: /hello
+- alterId: 2
+  cipher: auto
+  name: 韩国 003
+  network: ws
+  port: 443
+  server: kr2.sstank.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9ad49ff7-de2d-3b71-af59-9ca1d47a174b
+  ws-opts:
+    headers:
+      Host: kr2.sstank.top
+    path: /hello
+- alterId: 0
+  cipher: auto
   name: 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
   network: ws
   port: 8880
@@ -1530,6 +1827,27 @@ proxy-groups:
   - 加拿大 022
   - 德国 002
   - 加拿大 023
+  - 美国 050
+  - 美国 051
+  - 美国 052
+  - 美国 053
+  - 美国 054
+  - 美国 055
+  - 美国 056
+  - 美国 057
+  - 日本 007
+  - 美国 058
+  - 美国 059
+  - 美国 060
+  - 加拿大 024
+  - 加拿大 025
+  - 美国 061
+  - 加拿大 026
+  - 日本 008
+  - 美国 062
+  - 韩国 001
+  - 韩国 002
+  - 韩国 003
   - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇷🇺_RU_俄罗斯联邦
@@ -1640,6 +1958,27 @@ proxy-groups:
   - 加拿大 022
   - 德国 002
   - 加拿大 023
+  - 美国 050
+  - 美国 051
+  - 美国 052
+  - 美国 053
+  - 美国 054
+  - 美国 055
+  - 美国 056
+  - 美国 057
+  - 日本 007
+  - 美国 058
+  - 美国 059
+  - 美国 060
+  - 加拿大 024
+  - 加拿大 025
+  - 美国 061
+  - 加拿大 026
+  - 日本 008
+  - 美国 062
+  - 韩国 001
+  - 韩国 002
+  - 韩国 003
   - 🇦🇪_AE_阿联酋->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大
   - 🇷🇺_RU_俄罗斯联邦
@@ -2487,6 +2826,7 @@ rules:
 - DOMAIN-SUFFIX,onedrive.live.com,🖥️ Github
 - DOMAIN-SUFFIX,foursquare.com,🌐 Steam
 - DOMAIN-SUFFIX,steampowered.com,🌐 Steam
+- DOMAIN-KEYWORD,stun,🌐 Steam
 - DOMAIN-SUFFIX,stun.antisip.com,🌐 Steam
 - DOMAIN-SUFFIX,stun.bluesip.net,🌐 Steam
 - DOMAIN-SUFFIX,stun.dus.net,🌐 Steam
