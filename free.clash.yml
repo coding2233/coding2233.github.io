@@ -3527,7 +3527,7 @@ rules:
 - IP-CIDR,146.57.248.225/24,🌉 Bridge,no-resolve
 - IP-CIDR,37.218.245.14/24,🌉 Bridge,no-resolve
 - IP-CIDR,193.11.166.194/24,🌉 Bridge,no-resolve
-- DOMAIN-SUFFIX,https:meek.azureedge.net,🌉 Bridge
+- DOMAIN-SUFFIX,meek.azureedge.net,🌉 Bridge
 - DOMAIN-SUFFIX,ajax.aspnetcdn.com,🌉 Bridge
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
