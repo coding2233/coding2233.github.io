@@ -2,8 +2,8 @@
 title: Unity Hex Map技术测试
 author: 船长
 date: 2020-04-27 20:44:36 +0800
-categories: [Unity, HexMap]
-tags: [writing]
+categories: [Trash, Useless]
+tags: [unity]
 render_with_liquid: true
 ---
 

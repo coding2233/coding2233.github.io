@@ -2,7 +2,7 @@
 title: archlinux折腾记录
 author: 船长
 date: 2020-04-03 20:44:36 +0800
-categories: [Linux, Archlinux, 折腾]
+categories: [Trash, Useless]
 tags: [writing]
 render_with_liquid: false
 ---
