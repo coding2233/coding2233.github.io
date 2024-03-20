@@ -6,7 +6,6 @@ categories: [Trash, Useless]
 tags: [unity]
 render_with_liquid: true
 ---
-![test](/assets/images/hex.png)
 
 HexMap常用于战棋的地形，最近有这方面的需求，做一个简单的测试，从画一个正六边形开始。
 
