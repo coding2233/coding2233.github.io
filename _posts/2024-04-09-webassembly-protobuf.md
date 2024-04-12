@@ -27,3 +27,10 @@ render_with_liquid: false
 
 最新的版本，已经改成了`bazel`作为编译构建工具，需要修改对应的`patch`然后再尝试编译成`WASM`的库。
 也可以尝试`xmake f --trybuild=bazel`
+
+# xmake加载protobuf
+
+```lua
+--add_files("protocol/*.cc","protocol/lib/libprotobuf.so.o")
+--add_includedirs("protocol","protocol/include")
+```
