@@ -18,3 +18,8 @@ render_with_liquid: false
 [https://www.lfzxb.top/nkgmoba-animsystem-dawn-blossoms-plucked-at-dusk/](https://www.lfzxb.top/nkgmoba-animsystem-dawn-blossoms-plucked-at-dusk/)
 
 [https://musoucrow.github.io/2022/10/16/anim_graph/](https://musoucrow.github.io/2022/10/16/anim_graph/)
+
+
+设计
+
+![](/assets/drawio/playable_animation.drawio.svg)
