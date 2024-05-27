@@ -20,6 +20,10 @@ render_with_liquid: false
 [https://musoucrow.github.io/2022/10/16/anim_graph/](https://musoucrow.github.io/2022/10/16/anim_graph/)
 
 
+[https://docs.unity.cn/cn/2020.3/ScriptReference/Playables.PlayableExtensions.html](https://docs.unity.cn/cn/2020.3/ScriptReference/Playables.PlayableExtensions.html)
+[https://docs.unity.cn/cn/2020.3/ScriptReference/Animations.AnimationMixerPlayable.html](https://docs.unity.cn/cn/2020.3/ScriptReference/Animations.AnimationMixerPlayable.html)
+[https://docs.unity.cn/cn/2020.3/ScriptReference/Animations.AnimationLayerMixerPlayable.html](https://docs.unity.cn/cn/2020.3/ScriptReference/Animations.AnimationLayerMixerPlayable.html)
+
 设计
 
 ![](/assets/drawio/playable_animation.drawio.svg)
