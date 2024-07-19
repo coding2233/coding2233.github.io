@@ -24,6 +24,8 @@ render_with_liquid: false
 [https://docs.unity.cn/cn/2020.3/ScriptReference/Animations.AnimationMixerPlayable.html](https://docs.unity.cn/cn/2020.3/ScriptReference/Animations.AnimationMixerPlayable.html)
 [https://docs.unity.cn/cn/2020.3/ScriptReference/Animations.AnimationLayerMixerPlayable.html](https://docs.unity.cn/cn/2020.3/ScriptReference/Animations.AnimationLayerMixerPlayable.html)
 
+[可播放项 (Playable) 示例](https://docs.unity.cn/cn/2021.3/Manual/Playables-Examples.html)
+
 设计
 
 ![](/assets/drawio/playable_animation.drawio.svg)
