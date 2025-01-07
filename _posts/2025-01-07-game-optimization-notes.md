@@ -26,7 +26,6 @@ render_with_liquid: false
 4. TBR后期会访问整张RT, 消耗大量带宽
 5. TBR不支持大量顶点数据, FrameData空间有限
 6. TBR渲染前一定要Clear,不然会从缓存重新读取上一帧RT
-7. 避免alpha test破环渲染队列
 
 ### 优化方向
 1. CPU占用(shader预编译、逻辑运算、线程...)
@@ -37,7 +36,7 @@ render_with_liquid: false
 6. 性能数据收集、分析
 7. OverHead移动端遵循硬件指令大量少次
 8. 剔除、合批
-9. 
+9. 避免alpha test破环渲染队列
 
 ### GPU分析工具
 1. [snapdragon-profiler](https://www.qualcomm.com/developer/software/snapdragon-profiler)
