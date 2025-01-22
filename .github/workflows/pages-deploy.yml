@@ -27,6 +27,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set date
+        run: |
+          date
+          sudo timedatectl set-timezone Asia/Shanghai
+          date
       - name: Checkout
         uses: actions/checkout@v4
         with:
