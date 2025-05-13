@@ -1,11 +1,12 @@
 ---
 title: 虚拟文件系统
 author: 船长
-date: 2025-05-19 23:01
+date: 2025-05-10 23:01
 categories: [Dev,GameEngine]
 tags: [c++,vfs]
-render_with_liquid: true
 math: true
+mermaid: true
+render_with_liquid: true
 ---
 
 # 一、Virtual File System C++
